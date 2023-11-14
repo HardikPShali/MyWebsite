@@ -12,9 +12,9 @@ const About = () => {
 
                         <p className="descrp" data-aos="fade-up"
                             data-aos-duration="1500">
-                            I'm David Matias, I'm a Brand & Webflow Designer, Currently residing
-                            in the lush Victoria Street London, Matias operates globally and is
-                            ready to take on any design challenge.
+                            I'm Hardik Shali, I'm a Brand & Website Developer, Currently residing
+                            in the India, Hardik operates globally and is
+                            ready to take on any coding challenge.
                         </p>
                     </div>
                     <div className="singletab">
@@ -49,8 +49,7 @@ const About = () => {
                                                 </h2>
                                                 <p className="p-descrip" data-aos="fade-up"
                                                     data-aos-duration="500">
-                                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit consectetur, aliquam quaerats voluptatem. Ut enim ad minima veniam, exercitationem laboriosam, nisi ut aliquid ex ea autem velit esse quam nihil
-                                                </p>
+                                                    Hello, I'm Hardik, a dedicated front-end developer with a passion for creating user-centric digital solutions. I blend creativity with technical prowess to craft aesthetically pleasing, functionally robust websites. Recently, I've delved into the world of data, seeking insights to enhance user experiences. Beyond the digital realm, music, sports, and poetry fuel my creativity. Let's shape the future of digital experiences together.                                                </p>
                                                 <div className="about__contactwrap">
                                                     <div className="row g-4">
                                                         <div className="col-xxl-6 col-xl-6 col-lg-12 col-md-6" data-aos="zoom-in">
@@ -59,8 +58,8 @@ const About = () => {
                                                                     <span className="ptext fz-18 mb-20 d-block">
                                                                         Email
                                                                     </span>
-                                                                    <a href="#0">
-                                                                        <span className="__cf_email__" data-cfemail="1974786d70786a202020597e74787075377a7674">[email&#160;protected]</span>
+                                                                    <a href="mailto:hardikshali1612@gmail.com">
+                                                                        <span className="__cf_email__" data-cfemail="1974786d70786a202020597e74787075377a7674">hardikshali1612@gmail.com</span>
                                                                     </a>
                                                                 </div>
                                                             </div>
@@ -71,8 +70,8 @@ const About = () => {
                                                                     <span className="ptext fz-18 mb-20 d-block">
                                                                         Phone
                                                                     </span>
-                                                                    <a href="#0">
-                                                                        +(2) 871 382 023
+                                                                    <a href="callto:+919724641610">
+                                                                        +(91) 97246-41610
                                                                     </a>
                                                                 </div>
                                                             </div>
@@ -84,7 +83,7 @@ const About = () => {
                                                                         Address
                                                                     </span>
                                                                     <a href="#0">
-                                                                        Victoria Street London,
+                                                                        Surat, Gujarat, India,
                                                                     </a>
                                                                 </div>
                                                             </div>
@@ -97,27 +96,27 @@ const About = () => {
                                                                     </span>
                                                                     <ul className="d-flex align-items-center gap-2 gap-xl-4">
                                                                         <li>
-                                                                            <a href="#0">
+                                                                            <a target='_blank' href="https://www.facebook.com/hardik.sali.71/">
                                                                                 <i className="bi bi-facebook"></i>
                                                                             </a>
                                                                         </li>
-                                                                        <li>
+                                                                        {/* <li>
                                                                             <a href="#0">
                                                                                 <i className="bi bi-twitter"></i>
                                                                             </a>
-                                                                        </li>
+                                                                        </li> */}
                                                                         <li>
-                                                                            <a href="#0">
+                                                                            <a target='_blank' href="https://www.instagram.com/hardikksali/">
                                                                                 <i className="bi bi-instagram"></i>
                                                                             </a>
                                                                         </li>
                                                                         <li>
-                                                                            <a href="#0">
+                                                                            <a target='_blank' href="https://hardikshali.vercel.app/">
                                                                                 <i className="bi bi-globe"></i>
                                                                             </a>
                                                                         </li>
                                                                         <li>
-                                                                            <a href="#0">
+                                                                            <a target='_blank' href="https://www.linkedin.com/in/hardikshali/">
                                                                                 <i className="bi bi-linkedin"></i>
                                                                             </a>
                                                                         </li>
@@ -146,45 +145,123 @@ const About = () => {
                                                     My Experience
                                                 </h2>
                                                 <p>
-                                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit consectetur, aliquam quaerats voluptatem. Ut enim ad minima veniam, exercitationem laboriosam, nisi ut aliquid ex ea autem velit esse quam nihil
-                                                </p>
+                                                    Hey there, curious minds! 👋 I'm Hardik, a coding virtuoso and accidental stand-up philosopher. Imagine combining the logic of coding with the humor of a sitcom—that's pretty much me in a nutshell. Here's a glimpse into my tech-infused rollercoaster called life:                                                </p>
                                                 <div className="exprience__box mt-30">
                                                     <div className="exri__item">
                                                         <span className="fz-18 fw-500 base">
-                                                            In 2011
+                                                            Apr 2023 - Sep 2023
+                                                        </span>
+                                                        <div className="expri__cont">
+                                                            <h4 className="mb-15 text-dark">
+                                                                Implementation Consultant
+                                                            </h4>
+                                                            <p className="fz-18 pra d-block">
+                                                                <a
+                                                                    href="https://www.dataio.co/"
+                                                                    target='_blank'
+                                                                    style={{
+                                                                        color: "#0078d4",
+                                                                        cursor: "pointer",
+                                                                        transition: "textShadow 0.3s",
+                                                                    }}
+                                                                >
+                                                                    Dataio · On-Site
+                                                                </a>
+
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div className="exri__item">
+                                                        <span className="fz-18 fw-500 base">
+                                                            Dec 2021 - Apr 2023
                                                         </span>
                                                         <div className="expri__cont">
                                                             <h4 className="mb-15 text-dark">
                                                                 Software Engineer
+
                                                             </h4>
                                                             <p className="fz-18 pra d-block">
-                                                                UI Head & Manager
+                                                                <a
+                                                                    href="https://accubits.com/"
+                                                                    target='_blank'
+                                                                    style={{
+                                                                        color: "#0078d4",
+                                                                        cursor: "pointer",
+                                                                        transition: "textShadow 0.3s",
+                                                                    }}
+                                                                >
+                                                                    Accubits Technologies Inc · Remote
+                                                                </a>
+
                                                             </p>
                                                         </div>
                                                     </div>
                                                     <div className="exri__item">
                                                         <span className="fz-18 fw-500 base">
-                                                            In 2016
+                                                            Mar 2021 - Jul 2021
                                                         </span>
                                                         <div className="expri__cont">
                                                             <h4 className="mb-15 text-dark">
-                                                                Product Designer
+                                                                Java Developer
                                                             </h4>
                                                             <p className="fz-18 pra d-block">
-                                                                Head of Department
+                                                                <a
+                                                                    href="http://www.vnsguit.org/"
+                                                                    target='_blank'
+                                                                    style={{
+                                                                        color: "#0078d4",
+                                                                        cursor: "pointer",
+                                                                        transition: "textShadow 0.3s",
+                                                                    }}
+                                                                >
+                                                                    Apprenticeship
+                                                                </a>
                                                             </p>
                                                         </div>
                                                     </div>
                                                     <div className="exri__item">
                                                         <span className="fz-18 fw-500 base">
-                                                            In 2023
+                                                            Dec 2020 - Feb 2021
                                                         </span>
                                                         <div className="expri__cont">
                                                             <h4 className="mb-15 text-dark">
-                                                                Senior UI Designer
+                                                                .NET Developer
                                                             </h4>
                                                             <p className="fz-18 pra d-block">
-                                                                Fiverr.com
+                                                                <a
+                                                                    href="http://www.galaxydev.in/"
+                                                                    target='_blank'
+                                                                    style={{
+                                                                        color: "#0078d4",
+                                                                        cursor: "pointer",
+                                                                        transition: "textShadow 0.3s",
+                                                                    }}
+                                                                >
+                                                                    Galaxy Developers· Internship
+                                                                </a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div className="exri__item">
+                                                        <span className="fz-18 fw-500 base">
+                                                            Feb 2020 - May 2020
+                                                        </span>
+                                                        <div className="expri__cont">
+                                                            <h4 className="mb-15 text-dark">
+                                                                PHP Developer
+                                                            </h4>
+                                                            <p className="fz-18 pra d-block">
+                                                                <a
+                                                                    href="https://innovativeiteration.com/"
+                                                                    target='_blank'
+                                                                    style={{
+                                                                        color: "#0078d4",
+                                                                        cursor: "pointer",
+                                                                        transition: "textShadow 0.3s",
+                                                                    }}
+                                                                >
+                                                                    Innovative Iteration Software Solutions· Internship
+                                                                </a>
                                                             </p>
                                                         </div>
                                                     </div>
@@ -208,46 +285,74 @@ const About = () => {
                                                     My Education
                                                 </h2>
                                                 <p>
-                                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit consectetur, aliquam quaerats voluptatem. Ut enim ad minima veniam, exercitationem laboriosam, nisi ut aliquid ex ea autem velit esse quam nihil
-                                                </p>
+                                                    Welcome to the digital realm where creativity meets cutting-edge technology! I am a passionate explorer of the vast universe of information, a trailblazer in the dynamic landscapes of Data Science and Information Technology.                                                </p>
                                                 <div className="exprience__box mt-30">
                                                     <div className="exri__item">
                                                         <span className="fz-18 fw-500 base">
-                                                            2011-2013
+                                                            2025
                                                         </span>
                                                         <div className="expri__cont">
                                                             <h4 className="mb-15 text-dark">
-                                                                Programming Course
+                                                                Master's Degree in Data Science
                                                             </h4>
                                                             <p className="fz-18 pra d-block">
-                                                                New York University
+                                                                <a
+                                                                    href="https://www.iu.org/en-in"
+                                                                    target='_blank'
+                                                                    style={{
+                                                                        color: "#0078d4",
+                                                                        cursor: "pointer",
+                                                                        transition: "textShadow 0.3s",
+                                                                    }}
+                                                                >
+                                                                    IU International University of Applied Sciences
+                                                                </a>
                                                             </p>
                                                         </div>
                                                     </div>
                                                     <div className="exri__item">
                                                         <span className="fz-18 fw-500 base">
-                                                            2013-2016
+                                                            2022
                                                         </span>
                                                         <div className="expri__cont">
                                                             <h4 className="mb-15 text-dark">
-                                                                University of Design
+                                                                Master's Degree in Information Technology MSc (IT)
                                                             </h4>
                                                             <p className="fz-18 pra d-block">
-                                                                Kingston, United States
+                                                                <a
+                                                                    href="http://www.vnsguit.org/"
+                                                                    target='_blank'
+                                                                    style={{
+                                                                        color: "#0078d4",
+                                                                        cursor: "pointer",
+                                                                        transition: "textShadow 0.3s",
+                                                                    }}
+                                                                >
+                                                                    J.P.Dawer institute of Information Science and Technology - BSc (IT) & MSc (ICT)
+                                                                </a>
                                                             </p>
                                                         </div>
                                                     </div>
                                                     <div className="exri__item">
                                                         <span className="fz-18 fw-500 base">
-                                                            2016-2018
+                                                            2020
                                                         </span>
                                                         <div className="expri__cont">
                                                             <h4 className="mb-15 text-dark">
-                                                                Web Design Course
+                                                                Bachelor's Degree in Information Technology BSc (IT)
                                                             </h4>
                                                             <p className="fz-18 pra d-block">
-                                                                New York University
-                                                            </p>
+                                                                <a
+                                                                    href="http://www.vnsguit.org/"
+                                                                    target='_blank'
+                                                                    style={{
+                                                                        color: "#0078d4",
+                                                                        cursor: "pointer",
+                                                                        transition: "textShadow 0.3s",
+                                                                    }}
+                                                                >
+                                                                    J.P.Dawer institute of Information Science and Technology - BSc (IT) & MSc (ICT)
+                                                                </a>                                                            </p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -274,63 +379,78 @@ const About = () => {
                                                 </p>
                                                 <div className="about__contactwrap">
                                                     <div className="row g-4">
-                                                        <div className="col-xxl-6 col-xl-6 col-lg-12 col-md-6">
+                                                        <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-6">
                                                             <div className="abox myskill__item">
                                                                 <div className="thumb">
-                                                                    <img src="assets/img/about/figma.png" alt="img" />
+                                                                    <img height={100} width={100} src="assets/img/about/front-end.png" alt="img" />
                                                                 </div>
                                                                 <div className="mys">
                                                                     <span className="ptext fz-18 mb-15 d-block">
-                                                                        Figma
+                                                                        Frontend Development: Javascript, ReactJS, NextJs, CSS3, HTML5, Material-UI, Redux, Typescript, Bootstrap 5, Styled component, Cross-browser Compatibility, Responsive Web Design
                                                                     </span>
-                                                                    <h1 className="fw-600">
+                                                                    {/* <h1 className="fw-600">
                                                                         90%
-                                                                    </h1>
+                                                                    </h1> */}
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-xxl-6 col-xl-6 col-lg-12 col-md-6">
+                                                        <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-6">
                                                             <div className="abox myskill__item">
                                                                 <div className="thumb">
-                                                                    <img src="assets/img/about/word.png" alt="img" />
+                                                                    <img height={100} width={100} src="assets/img/about/developing.png" alt="img" />
                                                                 </div>
                                                                 <div className="mys">
                                                                     <span className="ptext fz-18 mb-15 d-block">
-                                                                        Wordpress
+                                                                        Backend Development: C#.NET, DotNET Core, SQL
                                                                     </span>
-                                                                    <h1 className="fw-600">
-                                                                        95%
-                                                                    </h1>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-xxl-6 col-xl-6 col-lg-12 col-md-6">
-                                                            <div className="abox myskill__item">
-                                                                <div className="thumb">
-                                                                    <img src="assets/img/about/html.png" alt="img" />
-                                                                </div>
-                                                                <div className="mys">
-                                                                    <span className="ptext fz-18 mb-15 d-block">
-                                                                        HTML
-                                                                    </span>
-                                                                    <h1 className="fw-600">
+                                                                    {/* <h1 className="fw-600">
                                                                         85%
-                                                                    </h1>
+                                                                    </h1> */}
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-xxl-6 col-xl-6 col-lg-12 col-md-6">
+                                                        <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-6">
                                                             <div className="abox myskill__item">
                                                                 <div className="thumb">
-                                                                    <img src="assets/img/about/boot.png" alt="img" />
+                                                                    <img height={100} width={100} src="assets/img/about/merge.png" alt="img" />
                                                                 </div>
                                                                 <div className="mys">
                                                                     <span className="ptext fz-18 mb-15 d-block">
-                                                                        Bootstrap
+                                                                        DevOps and Version Control: GIT
                                                                     </span>
-                                                                    <h1 className="fw-600">
+                                                                    {/* <h1 className="fw-600">
                                                                         97%
-                                                                    </h1>
+                                                                    </h1> */}
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-6">
+                                                            <div className="abox myskill__item">
+                                                                <div className="thumb">
+                                                                    <img height={100} width={100} src="assets/img/about/script.png" alt="img" />
+                                                                </div>
+                                                                <div className="mys">
+                                                                    <span className="ptext fz-18 mb-15 d-block">
+                                                                        Scripting and API Development: Python, REST APIs
+                                                                    </span>
+                                                                    {/* <h1 className="fw-600">
+                                                                        97%
+                                                                    </h1> */}
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-6">
+                                                            <div className="abox myskill__item">
+                                                                <div className="thumb">
+                                                                    <img height={100} width={100} src="assets/img/about/project-management.png" alt="img" />
+                                                                </div>
+                                                                <div className="mys">
+                                                                    <span className="ptext fz-18 mb-15 d-block">
+                                                                        Project Management and Issue Tracking: JIRA
+                                                                    </span>
+                                                                    {/* <h1 className="fw-600">
+                                                                        97%
+                                                                    </h1> */}
                                                                 </div>
                                                             </div>
                                                         </div>

@@ -17,7 +17,7 @@ const Home = () => {
                 <div className="preloader__matias">
                     <div className="box text-center">
                         <div className="matias mb-10">
-                            <img src="assets/img/banner/banner-man.png" alt="img" />
+                            <img src="assets/img/banner/loader1.jpg" alt="img" />
                         </div>
                         <span className="fz-30 mati fw-600 text-uppercase">
                             Hardik

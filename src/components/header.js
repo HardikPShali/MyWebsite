@@ -1,17 +1,21 @@
 import React from 'react'
+import { Link, useNavigate } from 'react-router-dom';
+const Header = () => {
+    // const navigate = useNavigate();
 
-const header = () => {
+    // const handleRedirect = () => {
+    //     navigate('/contact');
+    // };
+
     return (
-
         <>
             <section className="banner__section">
-
                 <header className="header-section">
                     <div className="container">
                         <div className="header-wrapper">
                             <div className="main__logo">
                                 <a href="index.html" className="logo">
-                                    <img src="assets/img/logo/logo.png" alt="logo" />
+                                    <img src="assets/img/logo/logonew.png" alt="logo" />
                                 </a>
                             </div>
                             <ul className="main-menu">
@@ -64,13 +68,13 @@ const header = () => {
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="contact.html">
+                                    <a href="#contact">
                                         Contact
                                     </a>
                                 </li>
                             </ul>
                             <div className="menu__components d-flex align-items-center">
-                                <a href="contact.html" className="d-flex fw-500 cmn--btn align-items-center gap-2">
+                                <a href="#contact" className="d-flex fw-500 cmn--btn align-items-center gap-2">
                                     <span className="get__text">
                                         Let's Talk
                                     </span>
@@ -105,10 +109,10 @@ const header = () => {
                                     </span>
                                 </a>
                                 <h1>
-                                    <span className="hone"> Creative Visual</span>
-                                    <span className="d-block designers" data-text="Designer">Designer</span>
+                                    <span className="hone"> Creative Web</span>
+                                    <span className="d-block designers" data-text="Developer">Developer</span>
                                 </h1>
-                                <div className="video__area">
+                                {/* <div className="video__area">
                                     <img src="assets/img/banner/bn-arrow.png" className="vid__arrow" alt="img" />
                                     <a href="https://www.youtube.com/watch?v=zFuJgOiUEso&amp;ab_channel=SujithRajendran" className="video__80 video-btn">
                                         <i className="bi bi-play-fill"></i>
@@ -117,23 +121,23 @@ const header = () => {
                                         Work
                                         Process
                                     </span>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className="banner__thumb" data-aos="fade-up-right" data-aos-duration="300">
-                                <img src="assets/img/banner/banner-man.png" alt="man-img" />
+                                <img src="assets/img/banner/HardikShaliFullNoBG.png" alt="man-img" width={563} height={805} />
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="banner__leftinfo">
                     <div className="left__infomobile">
-                        <a href="#0">
+                        <a href="callto:+919724641610">
                             <img src="assets/img/banner/dial.png" alt="img" />
                         </a>
-                        <a href="#0">
-                            (+02)-574-328-301
+                        <a href="callto:+919724641610">
+                            (+91)-9724641610
                         </a>
                     </div>
                     <div className="right__infoscroll">
@@ -157,27 +161,27 @@ const header = () => {
                     <div className="banner__xlsocial">
                         <ul className="banner__soci d-grid justify-content-center">
                             <li>
-                                <a href="#0">
+                                <a target='_blank' href="https://www.facebook.com/hardik.sali.71/">
                                     <i className="bi bi-facebook"></i>
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="#0">
                                     <i className="bi bi-twitter"></i>
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
-                                <a href="#0">
+                                <a target='_blank' href="https://www.instagram.com/hardikksali/">
                                     <i className="bi bi-instagram"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#0">
+                                <a target='_blank' href="https://hardikshali.vercel.app/">
                                     <i className="bi bi-globe"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#0">
+                                <a target='_blank' href="https://www.linkedin.com/in/hardikshali/">
                                     <i className="bi bi-linkedin"></i>
                                 </a>
                             </li>
@@ -203,4 +207,4 @@ const header = () => {
     )
 }
 
-export default header
+export default Header
