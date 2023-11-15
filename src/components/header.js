@@ -95,8 +95,8 @@ const Header = () => {
                     </div>
                 </header>
 
-                <div className="container">
-                    <div className="row g-4">
+                <div className="container text-start">
+                    <div className="row g-4 ">
                         <div className="col-lg-8">
                             <div className="banner__content">
                                 <a href="#0" className="bn__currently">
@@ -126,9 +126,7 @@ const Header = () => {
                         </div>
                         <div className="col-lg-4">
                             <div className="banner__thumb" data-aos="fade-up-right" data-aos-duration="300">
-                                <img src="assets/img/banner/HardikShaliFullNoBG.png" alt="man-img"
-                                //  width={563} height={805}
-                                 />
+                                <img src="assets/img/banner/HardikShaliFullNoBG.png" alt="man-img" />
                             </div>
                         </div>
                     </div>
