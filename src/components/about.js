@@ -58,12 +58,13 @@ const About = () => {
                                                                     <span className="ptext fz-18 mb-20 d-block">
                                                                         Email
                                                                     </span>
-                                                                    <a href="mailto:hardikshali1612@gmail.com">
-                                                                        <span className="__cf_email__" data-cfemail="1974786d70786a202020597e74787075377a7674">hardikshali1612@gmail.com</span>
+                                                                    <a href="mailto:hardikshali1612@gmail.com" className="textp">
+                                                                        <span className="__cf_email__" data-cfemail="6d000c19040c1e5454542d430e0200" style={{ textTransform: 'lowercase' }}>hardikshali1612@gmail.com</span>
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                         </div>
+
                                                         <div className="col-xxl-6 col-xl-6 col-lg-12 col-md-6" data-aos="zoom-in">
                                                             <div className="abox">
                                                                 <div className="about__contbox__item">
@@ -82,8 +83,8 @@ const About = () => {
                                                                     <span className="ptext fz-18 mb-20 d-block">
                                                                         Address
                                                                     </span>
-                                                                    <a href="#0">
-                                                                        Surat, Gujarat, India,
+                                                                    <a target='_blank' href="https://maps.app.goo.gl/rSEnUVeNWzoEyVhP6">
+                                                                        Surat, Gujarat, India
                                                                     </a>
                                                                 </div>
                                                             </div>

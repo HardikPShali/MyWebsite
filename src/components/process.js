@@ -27,13 +27,13 @@ const Process = () => {
                             </p>
                             <ul>
                                 <li>
-                                    Reviewing any existing branding
+                                    Assess existing branding
                                 </li>
                                 <li>
-                                    Target audience and competitors research
+                                    Conduct research on target audience and competitors
                                 </li>
                                 <li>
-                                    Developing a strategy
+                                    Develop a strategic plan
                                 </li>
                             </ul>
                         </div>
@@ -48,13 +48,13 @@ const Process = () => {
                             </p>
                             <ul>
                                 <li>
-                                    Developing wireframes and mockup
+                                    Create wireframes and mockups
                                 </li>
                                 <li>
-                                    Choosing typography, color palettes,
+                                    Select typography and color palettes
                                 </li>
                                 <li>
-                                    Refining the design
+                                    Refine the overall design
                                 </li>
                             </ul>
                         </div>
@@ -69,13 +69,13 @@ const Process = () => {
                             </p>
                             <ul>
                                 <li>
-                                    Testing the website thoroughly launch
+                                    Conduct thorough testing before the website launch
                                 </li>
                                 <li>
-                                    Choosing typography, color palettes,
+                                    Finalize typography and color choices
                                 </li>
                                 <li>
-                                    Refining the design
+                                    Ensure the design is polished and ready for release
                                 </li>
                             </ul>
                         </div>

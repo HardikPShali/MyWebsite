@@ -26,8 +26,8 @@ const Projectmeeting = () => {
                                         <span className="ptext fz-18 mb-1 d-block">
                                             Email
                                         </span>
-                                        <a href="#0">
-                                            <span className="__cf_email__" data-cfemail="274346514e434a46534e465414141467404a464e4b0944484a">[email&#160;protected]</span>
+                                        <a href="mailto:hardikshali1612@gmail.com" className="textp">
+                                            <span className="__cf_email__" data-cfemail="6d000c19040c1e5454542d430e0200" style={{ textTransform: 'lowercase' }}>hardikshali1612@gmail.com</span>
                                         </a>
                                     </span>
                                 </div>
@@ -39,8 +39,8 @@ const Projectmeeting = () => {
                                         <span className="ptext fz-18 mb-1 d-block">
                                             Location
                                         </span>
-                                        <a href="#0">
-                                            Victoria Street London, England
+                                        <a target='_blank' href="https://maps.app.goo.gl/rSEnUVeNWzoEyVhP6">
+                                            Surat, Gujarat, India
                                         </a>
                                     </span>
                                 </div>

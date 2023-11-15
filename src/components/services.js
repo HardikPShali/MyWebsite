@@ -24,22 +24,22 @@ const Services = () => {
                                     </span>
                                     <div className="cont">
                                         <h5>
-                                            Designer
+                                            Visual Craftsman
                                         </h5>
                                         <h2>
                                             <a href="service.html">
-                                                Illustration Design
+                                                Crafting Interactivity
                                             </a>
                                         </h2>
                                     </div>
                                 </div>
                                 <p className="pra">
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. sunt in culpa qui officia deserunt mollit
+                                    In Front-End Development, I bring ideas to life through captivating visuals and user-friendly interfaces. Specializing in ReactJS, NextJS, JavaScript, CSS3, HTML5, and Bootstrap 5, I ensure technically robust and visually appealing digital platforms.
                                 </p>
                             </div>
-                            <a href="service.html" className="common__icon">
+                            {/* <a href="service.html" className="common__icon">
                                 <i className="bi bi-arrow-up-right"></i>
-                            </a>
+                            </a> */}
                         </div>
                         <div className="service__unique__item pb-40 pt-40" data-aos="fade-up" data-aos-duration="1200">
                             <div className="left__service">
@@ -49,22 +49,22 @@ const Services = () => {
                                     </span>
                                     <div className="cont">
                                         <h5>
-                                            Branding
+                                            Design Expert
                                         </h5>
                                         <h2>
                                             <a href="service.html">
-                                                Business Branding
+                                                Strategic Branding
                                             </a>
                                         </h2>
                                     </div>
                                 </div>
                                 <p className="pra">
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. sunt in culpa qui officia deserunt mollit
+                                    Focused on Web Application Design, I craft strategic identities using NextJS, Styled Components, Redux, API, JavaScript, Git, and Bootstrap 5.
                                 </p>
                             </div>
-                            <a href="service.html" className="common__icon">
+                            {/* <a href="service.html" className="common__icon">
                                 <i className="bi bi-arrow-up-right"></i>
-                            </a>
+                            </a> */}
                         </div>
                         <div className="service__unique__item pb-40 pt-40" data-aos="fade-up" data-aos-duration="1400">
                             <div className="left__service">
@@ -74,22 +74,22 @@ const Services = () => {
                                     </span>
                                     <div className="cont">
                                         <h5>
-                                            UI/UX Design
+                                            User-Friendly Guru
                                         </h5>
                                         <h2>
                                             <a href="service.html">
-                                                Web UI/UX Design
+                                                Enhancing Usability
                                             </a>
                                         </h2>
                                     </div>
                                 </div>
                                 <p className="pra">
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. sunt in culpa qui officia deserunt mollit
+                                    As a UI/UX Designer, I prioritize aesthetics and functionality. Utilizing ReactJS, CSS, Material-UI, JavaScript, and Tailwindcss, I enhance user interactions for authentication and appointment modules.
                                 </p>
                             </div>
-                            <a href="service.html" className="common__icon">
+                            {/* <a href="service.html" className="common__icon">
                                 <i className="bi bi-arrow-up-right"></i>
-                            </a>
+                            </a> */}
                         </div>
                         <div className="service__unique__item pb-40 pt-40" data-aos="fade-up" data-aos-duration="1600">
                             <div className="left__service">
@@ -99,22 +99,22 @@ const Services = () => {
                                     </span>
                                     <div className="cont">
                                         <h5>
-                                            Web Design
+                                            Tech Creator
                                         </h5>
                                         <h2>
                                             <a href="service.html">
-                                                Application Design
+                                                Friendly Solutions
                                             </a>
                                         </h2>
                                     </div>
                                 </div>
                                 <p className="pra">
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. sunt in culpa qui officia deserunt mollit
+                                    Specializing in Web Development, I create dynamic and user-friendly solutions. From improving MDM systems with Java (JakartaEE, JSF, Servlet, Netbeans) to projects like CarCare, I meet technical specs using .Net, PHP, and NodeJs.
                                 </p>
                             </div>
-                            <a href="service.html" className="common__icon">
+                            {/* <a href="service.html" className="common__icon">
                                 <i className="bi bi-arrow-up-right"></i>
-                            </a>
+                            </a> */}
                         </div>
                         <div className="service__unique__item pb-40 pt-40" data-aos="fade-up" data-aos-duration="1800">
                             <div className="left__service">
@@ -124,22 +124,22 @@ const Services = () => {
                                     </span>
                                     <div className="cont">
                                         <h5>
-                                            SEO Analytics
+                                            SEO Pro
                                         </h5>
                                         <h2>
                                             <a href="service.html">
-                                                Digital Marketing
+                                                Boosting Visibility
                                             </a>
                                         </h2>
                                     </div>
                                 </div>
                                 <p className="pra">
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. sunt in culpa qui officia deserunt mollit
+                                    In Digital Marketing, I excel in SEO Analytics. Leveraging ReactJS, NextJS, Python, TensorFlow, Scikit-learn, Matplotlib, Tableau, Hadoop, SQL, Typescript, Git, and Riversand MDM, I optimize online visibility and drive organic traffic.
                                 </p>
                             </div>
-                            <a href="service.html" className="common__icon">
+                            {/* <a href="service.html" className="common__icon">
                                 <i className="bi bi-arrow-up-right"></i>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>
