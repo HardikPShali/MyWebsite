@@ -17,37 +17,37 @@ const Subsidebar = () => {
                         ready to take on any coding challenge.
                     </p>
                     <div className="sub__contact-left d-grid">
-  <div className="sub__contac-item" style={{ display: 'flex', alignItems: 'flex-start', gap: '0px' }}>
-    <div className="content" style={{ textAlign: 'left' }}>
-      <span className="address d-block">
-        ADDRESS
-      </span>
-      <span className="textp">
-        Surat, Gujarat, India
-      </span>
-    </div>
-  </div>
-  <div className="sub__contac-item" style={{ display: 'flex', alignItems: 'flex-start', gap: '0px' }}>
-    <div className="content" style={{ textAlign: 'left' }}>
-      <span className="address d-block">
-        EMAIL
-      </span>
-      <a href="mailto:hardikshali1612@gmail.com" className="textp">
-        <span className="__cf_email__" data-cfemail="6d000c19040c1e5454542d430e0200" style={{ textTransform: 'lowercase' }}>hardikshali1612@gmail.com</span>
-      </a>
-    </div>
-  </div>
-  <div className="sub__contac-item" style={{ display: 'flex', alignItems: 'flex-start', gap: '0px' }}>
-    <div className="content" style={{ textAlign: 'left' }}>
-      <span className="address d-block">
-        CALL NOW
-      </span>
-      <a href="callto:+919724641610" className="textp">
-        +91 97246-41610
-      </a>
-    </div>
-  </div>
-</div>
+                        <div className="sub__contac-item" style={{ display: 'flex', alignItems: 'flex-start', gap: '0px' }}>
+                            <div className="content" style={{ textAlign: 'left' }}>
+                                <span className="address d-block">
+                                    ADDRESS
+                                </span>
+                                <span className="textp">
+                                    Surat, Gujarat, India
+                                </span>
+                            </div>
+                        </div>
+                        <div className="sub__contac-item" style={{ display: 'flex', alignItems: 'flex-start', gap: '0px' }}>
+                            <div className="content" style={{ textAlign: 'left' }}>
+                                <span className="address d-block">
+                                    EMAIL
+                                </span>
+                                <a href="mailto:hardikshali1612@gmail.com" className="textp">
+                                    <span className="__cf_email__" data-cfemail="6d000c19040c1e5454542d430e0200" style={{ textTransform: 'lowercase' }}>hardikshali1612@gmail.com</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="sub__contac-item" style={{ display: 'flex', alignItems: 'flex-start', gap: '0px' }}>
+                            <div className="content" style={{ textAlign: 'left' }}>
+                                <span className="address d-block">
+                                    CALL NOW
+                                </span>
+                                <a href="callto:+919724641610" className="textp">
+                                    +91 97246-41610
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
                     <div className="sub__contact-right mb-80 position-relative">
                         <ul className="social d-flex gap-3">
@@ -73,7 +73,7 @@ const Subsidebar = () => {
                             </li>
                         </ul>
                     </div>
-                    <a href="#0" className="d-flex justify-content-center fw-500 cmn--btn align-items-center gap-2">
+                    <a href="#contact" className="d-flex justify-content-center fw-500 cmn--btn align-items-center gap-2">
                         <span>
                             <i className="bi bi-chevron-right"></i>
                         </span>
