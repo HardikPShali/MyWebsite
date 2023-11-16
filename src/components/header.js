@@ -35,6 +35,11 @@ const Header = () => {
                                     </a>
                                 </li>
                                 <li>
+                                <a href="#services">
+                                        Services
+                                    </a>
+                                </li>
+                                {/* <li>
                                     <a href="#services">
                                         Services
                                     </a>
@@ -50,13 +55,13 @@ const Header = () => {
                                             </a>
                                         </li>
                                     </ul>
-                                </li>
+                                </li> */}
                                 <li>
                                     <a href="#testi">
                                         Testimonial
                                     </a>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a href="javascript:void(0)">
                                         Blog
                                     </a>
@@ -66,7 +71,7 @@ const Header = () => {
                                         </li>
                                         <li><a href="blog-details.html">Blog Details</a></li>
                                     </ul>
-                                </li>
+                                </li> */}
                                 <li>
                                     <a href="#contact">
                                         Contact
@@ -74,7 +79,7 @@ const Header = () => {
                                 </li>
                             </ul>
                             <div className="menu__components d-flex align-items-center">
-                                <a href="#contact" className="d-flex fw-500 cmn--btn align-items-center gap-2">
+                                <a href="#footer" className="d-flex fw-500 cmn--btn align-items-center gap-2">
                                     <span className="get__text">
                                         Let's Talk
                                     </span>
@@ -99,7 +104,7 @@ const Header = () => {
                     <div className="row g-4 ">
                         <div className="col-lg-8">
                             <div className="banner__content">
-                                <a href="#0" className="bn__currently">
+                                <a href="#" className="bn__currently">
                                     <span className="d-block">
                                         Currently available for freelance
                                     </span>

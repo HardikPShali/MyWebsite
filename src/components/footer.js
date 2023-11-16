@@ -7,7 +7,7 @@ const Footer = () => {
     // };
     return (
 
-        <footer className="footer__section">
+        <footer className="footer__section" id="contact">
             <div className="container">
                 <div className="footer__top pt-120 pb-120">
                     <div className="fl" data-aos="fade-up" data-aos-duration="1000">

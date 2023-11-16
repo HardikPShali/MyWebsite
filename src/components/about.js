@@ -95,7 +95,7 @@ const About = () => {
                                                                     <span className="ptext fz-18 mb-20 d-block">
                                                                         Follow
                                                                     </span>
-                                                                    <ul className="d-flex align-items-center gap-2 gap-xl-4">
+                                                                    <ul className="d-flex align-items-center justify-content-center gap-2 gap-xl-4">
                                                                         <li>
                                                                             <a target='_blank' href="https://www.facebook.com/hardik.sali.71/">
                                                                                 <i className="bi bi-facebook"></i>

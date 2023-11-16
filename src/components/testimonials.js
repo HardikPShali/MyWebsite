@@ -5,7 +5,21 @@ const Testimonials = () => {
         maxHeight: '160px',  // Set the maximum height for the slider content (4 lines)
         overflowY: 'auto',  // Enable vertical scrolling if content exceeds the max height
         overflowX: 'hidden',  // Hide horizontal scrollbar
+        scrollbarWidth: 'thin', // For Firefox
+        WebkitOverflowScrolling: 'touch', // Enable smooth scrolling on iOS devices
+        // Webkit styles for Chrome and Safari
+        WebkitScrollbar: {
+            width: '12px',
+        },
+        WebkitScrollbarThumb: {
+            background: '#888',
+            borderRadius: '6px',
+        },
+        WebkitScrollbarTrack: {
+            background: '#f1f1f1',
+        },
     };
+    
     return (
         <div>
 
@@ -124,7 +138,7 @@ const Testimonials = () => {
                             </div>
                         </div>
                         <div className="quote">
-                            <img src="assets/img/testimonial/quote.png" alt="img" />
+                            <img src="assets/img/testimonial/quote.png" style={{ width: '114px', height: '94px' }} alt="img" />
                         </div>
                         {/* <div className="man1">
                             <img src="assets/img/recommendations/Anand.jpg" alt="img" />
