@@ -23,7 +23,7 @@ const Process = () => {
                                 Concept
                             </h2>
                             <p className="mb-30 pra fz-18">
-                                Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut fugit,
+                                Define the core essence and identity of the brand.
                             </p>
                             <ul>
                                 <li>
@@ -44,8 +44,7 @@ const Process = () => {
                                 Design
                             </h2>
                             <p className="mb-30 pra fz-18">
-                                Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut fugit,
-                            </p>
+                                Craft a visual representation aligned with the brand's identity.                            </p>
                             <ul>
                                 <li>
                                     Create wireframes and mockups
@@ -65,7 +64,7 @@ const Process = () => {
                                 Webflow
                             </h2>
                             <p className="mb-30 pra fz-18">
-                                Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut fugit,
+                                Utilize Webflow to bring the design to life with a focus on user experience.
                             </p>
                             <ul>
                                 <li>

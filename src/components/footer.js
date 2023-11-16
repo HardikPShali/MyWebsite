@@ -1,6 +1,10 @@
 import React from 'react'
 
 const Footer = () => {
+    // const handleLinkClick = () => {
+    //     // Reload the current page
+    //     window.location.reload();
+    // };
     return (
 
         <footer className="footer__section">
@@ -13,36 +17,38 @@ const Footer = () => {
                         <div className="col-lg-6">
                             <div className="get__content">
                                 <p>
-                                    Hello, I’m David Matias, Website & User Interface
-                                    Designer based in London.
+                                    Hello, I’m Hardik Shali, Software Engineer
+                                    based in India.
                                 </p>
-                                <a href="#0"><span className="__cf_email__" data-cfemail="f89c998e919c95998c91998bcbcbcbb89f95999194d69b9795">[email&#160;protected]</span></a>
+                                <a href="mailto:hardikshali1612@gmail.com" className="textp">
+                                    <span className="__cf_email__" data-cfemail="6d000c19040c1e5454542d430e0200" style={{ textTransform: 'lowercase' }}>hardikshali1612@gmail.com</span>
+                                </a>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="get__rightcontetn">
                                 <div className="row g-4">
                                     <div className="col-lg-6 col-md-6 col-sm-6">
-                                        <a href="#0" className="social__footer">
+                                        <a target='_blank' href="https://www.facebook.com/hardik.sali.71/" className="social__footer">
                                             Facebook
                                             <i className="bi bi-arrow-right"></i>
                                         </a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6">
-                                        <a href="#0" className="social__footer">
+                                        <a target='_blank' href="https://www.instagram.com/hardikksali/" className="social__footer">
                                             Instagram
                                             <i className="bi bi-arrow-right"></i>
                                         </a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6">
-                                        <a href="#0" className="social__footer">
-                                            Dribble
+                                        <a target='_blank' href="https://www.linkedin.com/in/hardikshali/" className="social__footer">
+                                            linkedIn
                                             <i className="bi bi-arrow-right"></i>
                                         </a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6">
-                                        <a href="#0" className="social__footer">
-                                            Webflow
+                                        <a target='_blank' href="https://wa.me/+919724641610" className="social__footer">
+                                            WhatsApp
                                             <i className="bi bi-arrow-right"></i>
                                         </a>
                                     </div>
@@ -55,7 +61,7 @@ const Footer = () => {
             <div className="footer__bottom cmn__bg">
                 <div className="container">
                     <div className="copyright">
-                        <p className="white"> Copyright © 2023 <a href="index-2.html" className="base">Matias.</a> All rights reserved.</p>
+                        <p className="white"> Copyright © 2023 <a href="#about" className="base">Hardik.</a> All rights reserved.</p>
                         <ul className="terms">
                             <li>
                                 <a href="#0">
