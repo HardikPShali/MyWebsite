@@ -1791,7 +1791,7 @@ p {
 
 .sub__contact__wrapper .sub__contact-left {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0px;
 }
 

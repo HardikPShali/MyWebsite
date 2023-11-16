@@ -79,7 +79,7 @@ const Header = () => {
                                 </li>
                             </ul>
                             <div className="menu__components d-flex align-items-center">
-                                <a href="#footer" className="d-flex fw-500 cmn--btn align-items-center gap-2">
+                                <a href="#contact" className="d-flex fw-500 cmn--btn align-items-center gap-2">
                                     <span className="get__text">
                                         Let's Talk
                                     </span>

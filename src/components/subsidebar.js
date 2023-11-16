@@ -9,63 +9,66 @@ const Subsidebar = () => {
                 </div>
                 <div className="sub__contact__wrapper d-grid">
                     <a href="index-2.html" className="side-logo">
-                        <img src="assets/img/logo/logo.png" alt="img" />
+                        <img src="assets/img/logo/logonew.png" alt="img" style={{ width: '150px' }} />
                     </a>
                     <p>
-                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit consectetur, aliquam quaerats voluptatem. Ut enim ad minima veniam, exercitationem laboriosam, nisi ut aliquid ex ea autem velit esse quam nihil
+                        I'm Hardik Shali, I'm a Brand & Website Developer, Currently residing
+                        in the India, Hardik operates globally and is
+                        ready to take on any coding challenge.
                     </p>
                     <div className="sub__contact-left d-grid">
-                        <div className="sub__contac-item">
-                            <div className="content">
-                                <span className="address d-block">
-                                    address
-                                </span>
-                                <span className="textp">
-                                    Victoria Street London,
-                                </span>
-                            </div>
-                        </div>
-                        <div className="sub__contac-item">
-                            <div className="content">
-                                <span className="address d-block">
-                                    email
-                                </span>
-                                <a href="javascript:void(0)" className="textp">
-                                    <span className="__cf_email__" data-cfemail="6d000c19040c1e5454542d430e0200">[email&#160;protected]</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div className="sub__contac-item">
-                            <div className="content">
-                                <span className="address d-block">
-                                    call now
-                                </span>
-                                <a href="jasacript:void(0)" className="textp">
-                                    +98 4758 2154 021
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+  <div className="sub__contac-item" style={{ display: 'flex', alignItems: 'flex-start', gap: '0px' }}>
+    <div className="content" style={{ textAlign: 'left' }}>
+      <span className="address d-block">
+        ADDRESS
+      </span>
+      <span className="textp">
+        Surat, Gujarat, India
+      </span>
+    </div>
+  </div>
+  <div className="sub__contac-item" style={{ display: 'flex', alignItems: 'flex-start', gap: '0px' }}>
+    <div className="content" style={{ textAlign: 'left' }}>
+      <span className="address d-block">
+        EMAIL
+      </span>
+      <a href="mailto:hardikshali1612@gmail.com" className="textp">
+        <span className="__cf_email__" data-cfemail="6d000c19040c1e5454542d430e0200" style={{ textTransform: 'lowercase' }}>hardikshali1612@gmail.com</span>
+      </a>
+    </div>
+  </div>
+  <div className="sub__contac-item" style={{ display: 'flex', alignItems: 'flex-start', gap: '0px' }}>
+    <div className="content" style={{ textAlign: 'left' }}>
+      <span className="address d-block">
+        CALL NOW
+      </span>
+      <a href="callto:+919724641610" className="textp">
+        +91 97246-41610
+      </a>
+    </div>
+  </div>
+</div>
+
                     <div className="sub__contact-right mb-80 position-relative">
                         <ul className="social d-flex gap-3">
                             <li>
-                                <a href="javascript:void(0)">
+                                <a target='_blank' href="https://www.facebook.com/hardik.sali.71/">
                                     <i className="bi bi-facebook"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)">
-                                    <i className="bi bi-twitter"></i>
+                                <a target='_blank' href="https://www.instagram.com/hardikksali/">
+                                    <i className="bi bi-instagram"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)">
+                                <a target='_blank' href="https://www.linkedin.com/in/hardikshali/">
                                     <i className="bi bi-linkedin"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)">
-                                    <i className="bi bi-youtube"></i>
+                                <a target='_blank' href="https://hardikshali.vercel.app/">
+                                    <i className="bi bi-globe"></i>
                                 </a>
                             </li>
                         </ul>
