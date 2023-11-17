@@ -204,12 +204,12 @@ $(document).ready(function () {
 
 		}
 	});
-	$('.imgc').magnificPopup({
-		type: 'image',
-		gallery: {
-			enabled: true,
-		}
-	});
+	// $('.imgc').magnificPopup({
+	// 	type: 'image',
+	// 	gallery: {
+	// 		enabled: true,
+	// 	}
+	// });
 	//>> Magnific Popup <<//
 
 	//>> Odometer Counter <<//

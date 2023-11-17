@@ -34,18 +34,18 @@ const Header = () => {
     }, []);
     return (
         <>
-            <section className="banner__section">
+            <section className="banner__section" id="home">
                 <header className="header-section">
                     <div className="container">
                         <div className="header-wrapper">
                             <div className="main__logo">
-                                <a href="index.html" className="logo">
+                                <a href="#" onClick={() => window.location.reload()} className="logo">
                                     <img src="assets/img/logo/logonew.png" alt="logo" />
                                 </a>
                             </div>
                             <ul className="main-menu">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="#home">
                                         Home
                                     </a>
                                 </li>
@@ -223,7 +223,7 @@ const Header = () => {
                 <div className="marquee-inner to-left">
                     <ul className="marqee-list d-flex">
                         <li className="marquee-item">
-                            <img src="assets/img/banner/ts1.png" alt="text-slide" /> <span className="stroke-text"><img src="assets/img/banner/ts2.png" alt="text-slide" /></span>
+                            <img src="assets/img/banner/reactjs.png" style={{ width: "400px", height: "32px" }} alt="text-slide" /> <span className="stroke-text"><img src="assets/img/banner/ts2.png" alt="text-slide" /></span>
                             <img src="assets/img/banner/ts3.png" alt="text-slide" /> <span className="stroke-text"><img src="assets/img/banner/ts4.png" alt="text-slide" /></span>
                             <img src="assets/img/banner/ts1.png" alt="text-slide" /> <span className="stroke-text"><img src="assets/img/banner/ts2.png" alt="text-slide" /></span>
                             <img src="assets/img/banner/ts3.png" alt="text-slide" /> <span className="stroke-text"><img src="assets/img/banner/ts4.png" alt="text-slide" /></span>

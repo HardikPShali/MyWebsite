@@ -8,7 +8,7 @@ const Subsidebar = () => {
                     <i className="bi bi-x-lg"></i>
                 </div>
                 <div className="sub__contact__wrapper d-grid">
-                    <a href="index-2.html" className="side-logo">
+                    <a href="#" onClick={() => window.location.reload()} className="side-logo">
                         <img src="assets/img/logo/logonew.png" alt="img" style={{ width: '150px' }} />
                     </a>
                     <p>

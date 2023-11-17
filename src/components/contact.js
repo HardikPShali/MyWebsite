@@ -13,7 +13,7 @@ const Contact = () => {
                                 </h1>
                                 <ul class="breakcrumnd__cont justify-content-center">
                                     <li>
-                                        <a href="index-2.html">
+                                        <a href="#">
                                             Home
                                         </a>
                                     </li>
