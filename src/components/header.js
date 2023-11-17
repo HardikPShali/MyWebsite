@@ -130,7 +130,9 @@ const Header = () => {
                             </div>
                         </div>
                         <div className="col-lg-4">
-                            <div className="banner__thumb" data-aos="fade-up-right" data-aos-duration="300">
+                            <div className="banner__thumb"
+                            //  data-aos="fade-up-right" data-aos-duration="300"
+                             >
                                 <img src="assets/img/banner/HardikShaliFullNoBG.png" alt="man-img" />
                             </div>
                         </div>
