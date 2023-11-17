@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 const Header = () => {
     // const navigate = useNavigate();
@@ -6,7 +6,32 @@ const Header = () => {
     // const handleRedirect = () => {
     //     navigate('/contact');
     // };
+    useEffect(() => {
+        const options = {
+            threshold: 0.5,
+        };
 
+        const handleIntersection = (entries, observer) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.remove('fade-out');
+                } else {
+                    entry.target.classList.add('fade-out');
+                }
+            });
+        };
+
+        const observer = new IntersectionObserver(handleIntersection, options);
+        const target = document.querySelector('.banner__thumb');
+
+        if (target) {
+            observer.observe(target);
+        }
+
+        return () => {
+            observer.disconnect();
+        };
+    }, []);
     return (
         <>
             <section className="banner__section">
@@ -35,7 +60,7 @@ const Header = () => {
                                     </a>
                                 </li>
                                 <li>
-                                <a href="#services">
+                                    <a href="#services">
                                         Services
                                     </a>
                                 </li>
@@ -130,10 +155,8 @@ const Header = () => {
                             </div>
                         </div>
                         <div className="col-lg-4">
-                            <div className="banner__thumb"
-                            //  data-aos="fade-up-right" data-aos-duration="300"
-                             >
-                                <img src="assets/img/banner/HardikShaliFullNoBG.png" alt="man-img" />
+                            <div className="banner__thumb fade-out">
+                                <img src="assets/img/banner/HardikShaliFullNoBG.png" alt="my-img" />
                             </div>
                         </div>
                     </div>
