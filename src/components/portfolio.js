@@ -16,11 +16,10 @@ const Portfolio = () => {
     };
 
     const handleItemClick = (e, project) => {
-        if (e && e.preventDefault) {
-            e.preventDefault();
-        }
+        e.preventDefault();
         handleModalShow(project);
     };
+
     const handleImageClick = (e, project) => {
         e.preventDefault();
         e.stopPropagation();
@@ -33,7 +32,6 @@ const Portfolio = () => {
         handleModalShow(project);
     };
 
-
     const projects = [
         {
             title: 'HealthierU',
@@ -41,23 +39,18 @@ const Portfolio = () => {
             description: `
                 <u>User Interface Design:</u><br />
                 The goal was to create a responsive and visually appealing user interface that would provide a seamless experience to the end users. I utilized Material-UI components and CSS styling to create a consistent look and feel across the application.<br /><br />
-    
                 <u>State Management and Interactivity:</u><br />
                 Additionally, I used ReactJS to create reusable components and implemented state management using hooks to enhance the user experience. API integration was crucial to the project's success.<br /><br />
-    
                 <u>Chat and Video Call Integration:</u><br />
                 I also leveraged Agora SDK to implement chat and video call functionality to make the application more interactive.<br /><br />
-    
                 <u>Collaboration and Project Management:</u><br />
                 Collaboration was vital, and I utilized Git and Jira to manage the project and communicate with my team members effectively. By prioritizing tasks and coordinating efficiently, we were able to deliver excellent results to the client.<br /><br />
-    
                 <u>Project Link:</u><br />
                 You can check out the project at <a href="https://healthieru.ae/" target='_blank'>healthieru.ae</a>
             `,
             image: 'logo_white_wrong.svg',
         },
     ];
-
 
     return (
         <div>
@@ -107,12 +100,10 @@ const Portfolio = () => {
                                         <a href="#" className="common__icon imgc" style={{ cursor: 'pointer' }} onClick={(e) => handleArrowClick(e, project)}>
                                             <i className="bi bi-arrow-up-right"></i>
                                         </a>
-
                                     </div>
                                 </div>
                             </div>
                         ))}
-
                     </div>
                     <div className="custom__hover">
                         <a href="#" className="hover__circle mauto" data-aos="zoom-out-down" data-aos-duration="2000">
