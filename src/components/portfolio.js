@@ -50,6 +50,26 @@ const Portfolio = () => {
             `,
             image: 'logo_white_wrong.svg',
         },
+        {
+            title: 'FutureGrail',
+            subtitle: 'NFT Product...',
+            description: ` <u>CoinFactory Overview:</u><br />
+            CoinFactory is a battle-tested, self-hosted, and ultra-secure ICO platform that has successfully hosted more than ten ICOs. It boasts features such as referral programs, bounty programs, logging reporting, and end-to-end customization options to give your ICO platform a unique look.<br /><br />
+
+            <u>Technology Stack:</u><br />
+            Throughout the development process, I utilized NextJS for server-side rendering and Redux for state management. Styled Components were used to create a visually appealing and consistent user interface. API integration was also crucial to make the platform dynamic.<br /><br />
+
+            <u>Collaboration and Project Management:</u><br />
+            Collaboration was key during the project, and Git and Jira were used to manage and track progress. I prioritized tasks based on importance and worked with developers to identify and resolve software bugs. Additionally, I integrated third-party tools and components into the application and coordinated efficient large-scale software deployments.<br /><br />
+
+            <u>Project Outcome:</u><br />
+            The end result is a robust, scalable, modular, and API-centric infrastructure that delivers excellent results for our client, FutureGrail in Singapore. To keep the client updated, I delivered project reports and milestone updates to the supervisor.<br /><br />
+
+            <u>Project Link:</u><br />
+            You can check out the project at <a href="https://www.futuregrail.com/" target='_blank'>futuregrail.com`,
+            image: 'futuregrail.png',
+        }
+
     ];
 
     return (
@@ -105,14 +125,14 @@ const Portfolio = () => {
                             </div>
                         ))}
                     </div>
-                    <div className="custom__hover">
+                    {/* <div className="custom__hover">
                         <a href="#" className="hover__circle mauto" data-aos="zoom-out-down" data-aos-duration="2000">
                             <span className="box">
                                 <i className="bi bi-arrow-up-right"></i>
                                 <span className="textmore">Click More Work</span>
                             </span>
                         </a>
-                    </div>
+                    </div> */}
                 </div>
             </section>
 
