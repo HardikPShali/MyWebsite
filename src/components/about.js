@@ -471,12 +471,12 @@ const About = () => {
                 <div className="marquee-inner to-right">
                     <ul className="marqee-list d-flex">
                         <li className="marquee-item">
-                            <img src="assets/img/banner/ts5.png" alt="text-slide" /> <span className="stroke-text"><img src="assets/img/banner/ts6.png" alt="text-slide" /></span>
-                            <img src="assets/img/banner/ts7.png" alt="text-slide" /> <span className="stroke-text"><img src="assets/img/banner/ts8.png" alt="text-slide" /></span>
-                            <img src="assets/img/banner/ts5.png" alt="text-slide" /> <span className="stroke-text"><img src="assets/img/banner/ts6.png" alt="text-slide" /></span>
-                            <img src="assets/img/banner/ts7.png" alt="text-slide" /> <span className="stroke-text"><img src="assets/img/banner/ts8.png" alt="text-slide" /></span>
-                            <img src="assets/img/banner/ts5.png" alt="text-slide" /> <span className="stroke-text"><img src="assets/img/banner/ts6.png" alt="text-slide" /></span>
-                            <img src="assets/img/banner/ts7.png" alt="text-slide" /> <span className="stroke-text"><img src="assets/img/banner/ts8.png" alt="text-slide" /></span>
+                            <img src="assets/img/banner/ts1.png" alt="text-slide" /> <span class="stroke-text"><img src="assets/img/banner/ts2.png" alt="text-slide" /></span>
+                            <img src="assets/img/banner/ts3.png" alt="text-slide" /> <span class="stroke-text"><img src="assets/img/banner/ts4.png" alt="text-slide" /></span>
+                            <img src="assets/img/banner/ts5.png" alt="text-slide" /> <span class="stroke-text"><img src="assets/img/banner/ts6.png" alt="text-slide" /></span>
+                            <img src="assets/img/banner/ts7.png" alt="text-slide" /> <span class="stroke-text"><img src="assets/img/banner/ts1.png" alt="text-slide" /></span>
+                            <img src="assets/img/banner/ts2.png" alt="text-slide" /> <span class="stroke-text"><img src="assets/img/banner/ts3.png" alt="text-slide" /></span>
+                            <img src="assets/img/banner/t4.png" alt="text-slide" /> <span class="stroke-text"><img src="assets/img/banner/ts6.png" alt="text-slide" /></span>
                         </li>
                     </ul>
                 </div>
