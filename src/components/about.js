@@ -147,7 +147,7 @@ const About = () => {
                                                 </h2>
                                                 <p>
                                                     Hey there, curious minds! 👋 I'm Hardik, a coding virtuoso and accidental stand-up philosopher. Imagine combining the logic of coding with the humor of a sitcom—that's pretty much me in a nutshell. Here's a glimpse into my tech-infused rollercoaster called life:                                                </p>
-                                                <div className="exprience__box mt-30">
+                                                <div className="exprience__box mt-30 text-end">
                                                     <div className="exri__item">
                                                         <span className="fz-18 fw-500 base">
                                                             Apr 2023 - Sep 2023
@@ -287,7 +287,7 @@ const About = () => {
                                                 </h2>
                                                 <p>
                                                     Welcome to the digital realm where creativity meets cutting-edge technology! I am a passionate explorer of the vast universe of information, a trailblazer in the dynamic landscapes of Data Science and Information Technology.                                                </p>
-                                                <div className="exprience__box mt-30">
+                                                <div className="exprience__box mt-30 text-end">
                                                     <div className="exri__item">
                                                         <span className="fz-18 fw-500 base">
                                                             2025
@@ -376,7 +376,7 @@ const About = () => {
                                                     My Skills
                                                 </h2>
                                                 <p>
-                                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit consectetur, aliquam quaerats voluptatem. Ut enim ad minima veniam, exercitationem laboriosam, nisi ut aliquid ex ea autem velit esse quam nihil
+                                                    I specialize in creating engaging and responsive user interfaces, utilizing a variety of technologies to bring web applications to life.
                                                 </p>
                                                 <div className="about__contactwrap">
                                                     <div className="row g-4">
