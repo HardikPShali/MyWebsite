@@ -5,11 +5,11 @@ const Testimonials = () => {
         maxHeight: '160px',  // Set the maximum height for the slider content (4 lines)
         overflowY: 'auto',  // Enable vertical scrolling if content exceeds the max height
         overflowX: 'hidden',  // Hide horizontal scrollbar
-        scrollbarWidth: 'thin', // For Firefox
+        scrollbarWidth: 'auto', // For Firefox
         WebkitOverflowScrolling: 'touch', // Enable smooth scrolling on iOS devices
         // Webkit styles for Chrome and Safari
         WebkitScrollbar: {
-            width: '12px',
+            width: 'auto',
         },
         WebkitScrollbarThumb: {
             background: '#888',
@@ -19,7 +19,11 @@ const Testimonials = () => {
             background: '#f1f1f1',
         },
     };
-    
+
+    const testiContentStyle = {
+        marginTop: '30px',
+        textAlign: 'start'
+    }
     return (
         <div>
 
@@ -54,12 +58,14 @@ const Testimonials = () => {
                                                     Hardik is a real go-to person for any project he is into. Such a passionate supporter for the lead/manager he is. Whenever there is some kind of chaos or crisis, he never escalates that situation but ensures that others also become cool so that all can focus on implementing a solution to the Problem. I wholeheartedly recommend him for the career opportunities he is going to pursue. All the best my boy!
                                                 </p>
                                             </div>
-                                            <h4 className="base mb-2">
-                                                Anand Venkitaraman
-                                            </h4>
-                                            <span className="fz-18 ptext">
-                                                Delivery Manager
-                                            </span>
+                                            <div style={testiContentStyle}>
+                                                <h4 className="base mb-2">
+                                                    Anand Venkitaraman
+                                                </h4>
+                                                <span className="fz-18 ptext">
+                                                    Delivery Manager
+                                                </span>
+                                            </div>
                                         </div>
                                         <div className="test__slide swiper-slide">
                                             <div className="d-flex mb-40 align-items-center gap-2">
@@ -74,12 +80,14 @@ const Testimonials = () => {
                                                     It was a pleasure working with Hardik due to his work ethics and professional behaviour, but at the same time, having a fun and lovely attitude that shines across each conversation. You could visibly see his commitment during times of crisis, and I could have always expected nothing but the best effort from him when the situation demanded it. I would recommend him to any team that would like to have a committed and professional resource. Stay blessed.
                                                 </p>
                                             </div>
-                                            <h4 className="base mb-2">
-                                                Tharun Abraham Elias
-                                            </h4>
-                                            <span className="fz-18 ptext">
-                                                Project Manager
-                                            </span>
+                                            <div style={testiContentStyle}>
+                                                <h4 className="base mb-2">
+                                                    Tharun Abraham Elias
+                                                </h4>
+                                                <span className="fz-18 ptext">
+                                                    Project Manager
+                                                </span>
+                                            </div>
                                         </div>
                                         <div className="test__slide swiper-slide">
                                             <div className="d-flex mb-40 align-items-center gap-2">
@@ -100,12 +108,14 @@ const Testimonials = () => {
                                                     Overall, I highly recommend Hardik for any future opportunities. With his strong logic knowledge, excellent UI skills, and proven ability to complete projects on time, I have no doubt that he will continue to be a valuable asset to any organization.
                                                 </p>
                                             </div>
-                                            <h4 className="base mb-2">
-                                                Nithya Rajan
-                                            </h4>
-                                            <span className="fz-18 ptext">
-                                                Technical Team Lead
-                                            </span>
+                                            <div style={testiContentStyle}>
+                                                <h4 className="base mb-2">
+                                                    Nithya Rajan
+                                                </h4>
+                                                <span className="fz-18 ptext">
+                                                    Technical Team Lead
+                                                </span>
+                                            </div>
                                         </div>
                                         <div className="test__slide swiper-slide">
                                             <div className="d-flex mb-40 align-items-center gap-2">
@@ -122,36 +132,38 @@ const Testimonials = () => {
                                                     always willing to collaborate and share his ideas to help move projects forward.
                                                 </p>
                                             </div>
-                                            <h4 className="base mb-2">
-                                                Jayakrishnan A V
-                                            </h4>
-                                            <span className="fz-18 ptext">
-                                                Technical Lead
-                                            </span>
+                                            <div style={testiContentStyle}>
+                                                <h4 className="base mb-2">
+                                                    Jayakrishnan A V
+                                                </h4>
+                                                <span className="fz-18 ptext">
+                                                    Technical Lead
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="swiper-pagination"></div>
                                     <div className="swiper-pagination2"></div>
                                     <div className="swiper-pagination3"></div>
-                                    <div className="swiper-pagination4"></div> {/* Added 4th pagination */}
+                                    <div className="swiper-pagination4"></div>
                                 </div>
                             </div>
                         </div>
                         <div className="quote">
-                            <img src="assets/img/testimonial/quote.png" style={{ width: '114px', height: '94px' }} alt="img" />
+                            <img src="assets/img/testimonial/quote.png" style={{ width: '110px', height: '95px' }} alt="img" />
                         </div>
-                        {/* <div className="man1">
-                            <img src="assets/img/recommendations/Anand.jpg" alt="img" />
+                        <div className="man1">
+                            <img style={{ width: '150px', height: '150px', borderRadius: '50% / 40%' }} src="assets/img/recommendations/Anand.jpg" alt="img" />
                         </div>
                         <div className="man2">
-                            <img src="assets/img/recommendations/Tharun.jpg" alt="img" />
+                            <img style={{ width: '150px', height: '150px', borderRadius: '20px' }} src="assets/img/recommendations/Tharun.jpg" alt="img" />
                         </div>
                         <div className="man3">
-                            <img src="assets/img/recommendations/NithyaSmall.png" alt="img" />
+                            <img style={{ width: '150px', height: '150px', borderRadius: '50%' }} src="assets/img/recommendations/NithyaSmall.png" alt="img" />
                         </div>
                         <div className="man4">
-                            <img src="assets/img/recommendations/Jay.jpg" alt="img" />
-                        </div> */}
+                            <img style={{ width: '150px', height: '150px', borderRadius: '50%' }} src="assets/img/recommendations/Jay.jpg" alt="img" />
+                        </div>
                         <div className="test__shape">
                             <img src="assets/img/testimonial/testi-arrow.png" alt="img" />
                         </div>

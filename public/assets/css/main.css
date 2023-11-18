@@ -4254,6 +4254,12 @@ p {
   right: 40px;
 }
 
+.man4 {
+  position: absolute;
+  top: 60px;
+  right: 40px;
+}
+
 .swiper-pagination3 {
   display: flex;
   align-items: center;
@@ -5634,7 +5640,8 @@ p {
 }
 
 .close-btn:hover {
-  color: #c9f31d; /* Change the color on hover to match the background */
+  color: #c9f31d;
+  /* Change the color on hover to match the background */
 }
 
 /* Heading */
