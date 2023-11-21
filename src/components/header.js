@@ -194,11 +194,11 @@ const Header = () => {
                                     <i className="bi bi-facebook"></i>
                                 </a>
                             </li>
-                            {/* <li>
-                                <a href="#0">
-                                    <i className="bi bi-twitter"></i>
+                            <li>
+                                <a target='_blank' href="https://github.com/HardikPShali">
+                                    <i className="bi bi-github"></i>
                                 </a>
-                            </li> */}
+                            </li>
                             <li>
                                 <a target='_blank' href="https://www.instagram.com/hardikksali/">
                                     <i className="bi bi-instagram"></i>

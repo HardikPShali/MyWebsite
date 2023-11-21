@@ -97,18 +97,13 @@ const About = () => {
                                                                     </span>
                                                                     <ul className="d-flex gap-2 gap-xl-4">
                                                                         <li>
-                                                                            <a target='_blank' href="https://www.facebook.com/hardik.sali.71/">
-                                                                                <i className="bi bi-facebook"></i>
+                                                                            <a target='_blank' href="https://www.linkedin.com/in/hardikshali/">
+                                                                                <i className="bi bi-linkedin"></i>
                                                                             </a>
                                                                         </li>
-                                                                        {/* <li>
-                                                                            <a href="#0">
-                                                                                <i className="bi bi-twitter"></i>
-                                                                            </a>
-                                                                        </li> */}
                                                                         <li>
-                                                                            <a target='_blank' href="https://www.instagram.com/hardikksali/">
-                                                                                <i className="bi bi-instagram"></i>
+                                                                            <a target='_blank' href="https://github.com/HardikPShali">
+                                                                                <i className="bi bi-github"></i>
                                                                             </a>
                                                                         </li>
                                                                         <li>
@@ -117,8 +112,14 @@ const About = () => {
                                                                             </a>
                                                                         </li>
                                                                         <li>
-                                                                            <a target='_blank' href="https://www.linkedin.com/in/hardikshali/">
-                                                                                <i className="bi bi-linkedin"></i>
+                                                                            <a target='_blank' href="https://www.facebook.com/hardik.sali.71/">
+                                                                                <i className="bi bi-facebook"></i>
+                                                                            </a>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <a target='_blank' href="https://www.instagram.com/hardikksali/">
+                                                                                <i className="bi bi-instagram"></i>
                                                                             </a>
                                                                         </li>
                                                                     </ul>
