@@ -476,7 +476,7 @@ const About = () => {
                             <img src="assets/img/banner/ts5.png" alt="text-slide" /> <span class="stroke-text"><img src="assets/img/banner/ts6.png" alt="text-slide" /></span>
                             <img src="assets/img/banner/ts7.png" alt="text-slide" /> <span class="stroke-text"><img src="assets/img/banner/ts1.png" alt="text-slide" /></span>
                             <img src="assets/img/banner/ts2.png" alt="text-slide" /> <span class="stroke-text"><img src="assets/img/banner/ts3.png" alt="text-slide" /></span>
-                            <img src="assets/img/banner/t4.png" alt="text-slide" /> <span class="stroke-text"><img src="assets/img/banner/ts6.png" alt="text-slide" /></span>
+                            <img src="assets/img/banner/ts4.png" alt="text-slide" /> <span class="stroke-text"><img src="assets/img/banner/ts6.png" alt="text-slide" /></span>
                         </li>
                     </ul>
                 </div>
