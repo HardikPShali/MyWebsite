@@ -150,19 +150,19 @@ const Testimonials = () => {
                             </div>
                         </div>
                         <div className="quote">
-                            <img src="assets/img/testimonial/quote.png" style={{ width: '110px', height: '95px' }} alt="img" />
+                            <img src="assets/img/testimonial/quote.png" alt="img" />
                         </div>
                         <div className="man1">
-                            <img style={{ width: '150px', height: '150px', borderRadius: '50% / 40%' }} src="assets/img/recommendations/Anand.jpg" alt="img" />
+                            <img src="assets/img/recommendations/Anand.jpg" alt="img" />
                         </div>
                         <div className="man2">
-                            <img style={{ width: '150px', height: '150px', borderRadius: '20px' }} src="assets/img/recommendations/Tharun.jpg" alt="img" />
+                            <img src="assets/img/recommendations/Tharun.jpg" alt="img" />
                         </div>
-                        <div className="man3">
+                        {/* <div className="man3">
                             <img style={{ width: '150px', height: '150px', borderRadius: '50%' }} src="assets/img/recommendations/NithyaSmall.png" alt="img" />
-                        </div>
-                        <div className="man4">
-                            <img style={{ width: '150px', height: '150px', borderRadius: '50%' }} src="assets/img/recommendations/Jay.jpg" alt="img" />
+                        </div> */}
+                        <div className="man3">
+                            <img src="assets/img/recommendations/Jay.jpg" alt="img" />
                         </div>
                         <div className="test__shape">
                             <img src="assets/img/testimonial/testi-arrow.png" alt="img" />
