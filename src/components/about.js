@@ -403,7 +403,7 @@ const About = () => {
                                                                 </div>
                                                                 <div className="mys">
                                                                     <span className="ptext fz-18 mb-15 d-block">
-                                                                        Backend Development: C#.NET, DotNET Core, SQL
+                                                                        Backend Development: C++, C#.NET, DotNET Core, SQL,Java Core (JSF,JakartaEE,Servlet)
                                                                     </span>
                                                                     {/* <h1 className="fw-600">
                                                                         85%

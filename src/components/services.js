@@ -24,18 +24,17 @@ const Services = () => {
                                     </span>
                                     <div className="cont">
                                         <h5>
-                                            Visual Craftsman
+                                            Frontline Dev
                                         </h5>
                                         <h2>
                                             <a href="service.html">
-                                                Crafting Interactivity
+                                                Immersive Interfaces
                                             </a>
                                         </h2>
                                     </div>
                                 </div>
                                 <p className="pra">
-                                    In Front-End Development, I bring ideas to life through captivating visuals and user-friendly interfaces. Specializing in ReactJS, NextJS, JavaScript, CSS3, HTML5, and Bootstrap 5, I ensure technically robust and visually appealing digital platforms.
-                                </p>
+                                    Elevate your digital presence with expertise in JavaScript, ReactJS, NextJs, CSS3, and HTML5. Specializing in creating visually stunning and technically robust user interfaces using tools like Material-UI, Redux, TypeScript, Bootstrap 5, and Styled Components.      </p>
                             </div>
                             {/* <a href="service.html" className="common__icon">
                                 <i className="bi bi-arrow-up-right"></i>
@@ -49,18 +48,17 @@ const Services = () => {
                                     </span>
                                     <div className="cont">
                                         <h5>
-                                            Design Expert
+                                            BackCore
                                         </h5>
                                         <h2>
                                             <a href="service.html">
-                                                Strategic Branding
+                                                Scalable Solutions
                                             </a>
                                         </h2>
                                     </div>
                                 </div>
                                 <p className="pra">
-                                    Focused on Web Application Design, I craft strategic identities using NextJS, Styled Components, Redux, API, JavaScript, Git, and Bootstrap 5.
-                                </p>
+                                    Empower your applications with seamless data management and server-side logic. Mastery includes C#.NET, DotNET Core, Java Core (JSF, JakartaEE, Servlet), C++, and SQL, and Riversand MDM (Master Data Management), ensuring systems are both efficient and scalable.         </p>
                             </div>
                             {/* <a href="service.html" className="common__icon">
                                 <i className="bi bi-arrow-up-right"></i>
@@ -74,17 +72,17 @@ const Services = () => {
                                     </span>
                                     <div className="cont">
                                         <h5>
-                                            User-Friendly Guru
+                                            GitFlow
                                         </h5>
                                         <h2>
                                             <a href="service.html">
-                                                Enhancing Usability
+                                                Version Control
                                             </a>
                                         </h2>
                                     </div>
                                 </div>
                                 <p className="pra">
-                                    As a UI/UX Designer, I prioritize aesthetics and functionality. Utilizing ReactJS, CSS, Material-UI, JavaScript, and Tailwindcss, I enhance user interactions for authentication and appointment modules.
+                                    Streamline your development workflow with Git essentials. Navigate branches, merge changes, and resolve conflicts effortlessly. Expertise in version control enhances collaborative development.
                                 </p>
                             </div>
                             {/* <a href="service.html" className="common__icon">
@@ -99,18 +97,17 @@ const Services = () => {
                                     </span>
                                     <div className="cont">
                                         <h5>
-                                            Tech Creator
+                                            PyCraft
                                         </h5>
                                         <h2>
                                             <a href="service.html">
-                                                Friendly Solutions
+                                                Scripting Mastery
                                             </a>
                                         </h2>
                                     </div>
                                 </div>
                                 <p className="pra">
-                                    Specializing in Web Development, I create dynamic and user-friendly solutions. From improving MDM systems with Java (JakartaEE, JSF, Servlet, Netbeans) to projects like CarCare, I meet technical specs using .Net, PHP, and NodeJs.
-                                </p>
+                                    Unlock the power of Python for scripting and API development. From task automation to building robust REST APIs, PyCraft enhances the functionality and efficiency of your applications.                            </p>
                             </div>
                             {/* <a href="service.html" className="common__icon">
                                 <i className="bi bi-arrow-up-right"></i>
@@ -124,18 +121,17 @@ const Services = () => {
                                     </span>
                                     <div className="cont">
                                         <h5>
-                                            SEO Pro
+                                            JIRA Pro
                                         </h5>
                                         <h2>
                                             <a href="service.html">
-                                                Boosting Visibility
+                                                Project Excellence
                                             </a>
                                         </h2>
                                     </div>
                                 </div>
                                 <p className="pra">
-                                    In Digital Marketing, I excel in SEO Analytics. Leveraging ReactJS, NextJS, Python, TensorFlow, Scikit-learn, Matplotlib, Tableau, Hadoop, SQL, Typescript, Git, and Riversand MDM, I optimize online visibility and drive organic traffic.
-                                </p>
+                                    Navigate project management with JIRA. From issue tracking to seamless collaboration, bring excellence to project planning and execution, ensuring the timely delivery of high-quality software solutions.                                                  </p>
                             </div>
                             {/* <a href="service.html" className="common__icon">
                                 <i className="bi bi-arrow-up-right"></i>
