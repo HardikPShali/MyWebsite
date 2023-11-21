@@ -21,7 +21,7 @@ const Footer = () => {
                                     based in India.
                                 </p>
                                 <a href="mailto:hardikshali1612@gmail.com" className="textp">
-                                    <span className="__cf_email__" data-cfemail="6d000c19040c1e5454542d430e0200" style={{ textTransform: 'lowercase' }}>hardikshali1612@gmail.com</span>
+                                    <span className="__cf_email__" data-cfemail="6d000c19040c1e5454542d430e0200">hardikshali1612@gmail.com</span>
                                 </a>
                             </div>
                         </div>

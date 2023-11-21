@@ -16,7 +16,7 @@ const Services = () => {
                         </h2>
                     </div>
                     <div className="service__uniquewrap">
-                        <div className="service__unique__item pb-40 pt-40" data-aos="fade-up" data-aos-duration="1000">
+                        <div className="service__unique__item align-items-center pb-40 pt-40" data-aos="fade-up" data-aos-duration="1000">
                             <div className="left__service">
                                 <div className="serial__adjust">
                                     <span>
