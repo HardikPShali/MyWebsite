@@ -23,7 +23,7 @@ const Projectmeeting = () => {
                                         <i className="bi bi-envelope"></i>
                                     </span>
                                     <span className="box">
-                                        <span className="ptext fz-18 mb-1 d-block">
+                                        <span style={{ textAlign: 'left' }} className="ptext fz-18 mb-1 d-block">
                                             Email
                                         </span>
                                         <a href="mailto:hardikshali1612@gmail.com" className="textp">
@@ -36,7 +36,7 @@ const Projectmeeting = () => {
                                         <i className="bi bi-geo-alt"></i>
                                     </span>
                                     <span className="box">
-                                        <span className="ptext fz-18 mb-1 d-block">
+                                        <span style={{ textAlign: 'left' }} className="ptext fz-18 mb-1 d-block">
                                             Location
                                         </span>
                                         <a target='_blank' href="https://maps.app.goo.gl/rSEnUVeNWzoEyVhP6">
