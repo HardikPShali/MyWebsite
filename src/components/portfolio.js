@@ -161,7 +161,7 @@ const Portfolio = () => {
 
                                     </div>
 
-                                    <div className="content d-flex align-items-center justify-content-between gap-2">
+                                    <div className="content d-flex justify-content-between gap-2">
                                         <a href={project?.link} target='_blank' className="left__cont">
                                             <span className="base mb-2 mb-xxl-3 d-block text-uppercase">
                                                 {project?.title}

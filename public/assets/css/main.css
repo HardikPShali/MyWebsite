@@ -2976,6 +2976,7 @@ p {
 
 .about__onecontent {
   padding-left: 40px;
+  text-align: left;
 }
 
 .about__onecontent h2 {
@@ -3370,7 +3371,9 @@ p {
     background: var(--base);
   }
 }
-
+.project__item  {
+ text-align: left;
+}
 .project__item .thumb {
   overflow: hidden;
   display: block;
