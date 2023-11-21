@@ -142,16 +142,15 @@ const Header = () => {
                                     <span className="hone"> Creative Web</span>
                                     <span className="d-block designers" data-text="Developer">Developer</span>
                                 </h1>
-                                {/* <div className="video__area">
+                                <div className="video__area">
                                     <img src="assets/img/banner/bn-arrow.png" className="vid__arrow" alt="img" />
-                                    <a href="https://www.youtube.com/watch?v=zFuJgOiUEso&amp;ab_channel=SujithRajendran" className="video__80 video-btn">
-                                        <i className="bi bi-play-fill"></i>
+                                    <a href="assets/img/banner/Hardik's Resume.pdf" download="Hardiks_Resume.pdf" className="video__80 video-btn">
+                                        <i className="bi bi-download"></i>
                                     </a>
                                     <span className="proces">
-                                        Work
-                                        Process
+                                        Download CV
                                     </span>
-                                </div> */}
+                                </div>
                             </div>
                         </div>
                         <div className="col-lg-4">
