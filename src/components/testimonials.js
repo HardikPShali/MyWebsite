@@ -60,7 +60,13 @@ const Testimonials = () => {
                                             </div>
                                             <div style={testiContentStyle}>
                                                 <h4 className="base mb-2">
-                                                    Anand Venkitaraman
+                                                    <a
+                                                        href="https://www.linkedin.com/in/anandvcetsdm/"
+                                                        className="base mb-2"
+                                                        target='_blank'
+                                                    >
+                                                        Anand Venkitaraman
+                                                    </a>
                                                 </h4>
                                                 <span className="fz-18 ptext">
                                                     Delivery Manager
@@ -82,7 +88,13 @@ const Testimonials = () => {
                                             </div>
                                             <div style={testiContentStyle}>
                                                 <h4 className="base mb-2">
-                                                    Tharun Abraham Elias
+                                                    <a
+                                                        href="https://www.linkedin.com/in/tharun-abraham-elias-7644531b2/"
+                                                        className="base mb-2"
+                                                        target='_blank'
+                                                    >
+                                                        Tharun Abraham Elias
+                                                    </a>
                                                 </h4>
                                                 <span className="fz-18 ptext">
                                                     Project Manager
@@ -110,7 +122,13 @@ const Testimonials = () => {
                                             </div>
                                             <div style={testiContentStyle}>
                                                 <h4 className="base mb-2">
-                                                    Nithya Rajan
+                                                    <a
+                                                        href="https://www.linkedin.com/in/bearnithi/"
+                                                        className="base mb-2"
+                                                        target='_blank'
+                                                    >
+                                                        Nithya Rajan
+                                                    </a>
                                                 </h4>
                                                 <span className="fz-18 ptext">
                                                     Technical Team Lead
@@ -134,7 +152,13 @@ const Testimonials = () => {
                                             </div>
                                             <div style={testiContentStyle}>
                                                 <h4 className="base mb-2">
-                                                    Jayakrishnan A V
+                                                    <a
+                                                        href="https://www.linkedin.com/in/jayakrishnan-a-v-528a16112/"
+                                                        className="base mb-2"
+                                                        target='_blank'
+                                                    >
+                                                        Jayakrishnan A V
+                                                    </a>
                                                 </h4>
                                                 <span className="fz-18 ptext">
                                                     Technical Lead
