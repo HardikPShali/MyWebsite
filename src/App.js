@@ -11,6 +11,7 @@ import Testimonials from './components/testimonials';
 import Footer from './components/footer';
 import Subsidebar from './components/subsidebar';
 import Contact from './components/contact';
+import Certificates from './components/certificates';
 function App() {
   return (
     <div className="App">
@@ -31,6 +32,7 @@ function App() {
       <Services />
       <Process />
       <Testimonials />
+      <Certificates />
       <Footer />
       <Subsidebar />
       {/* <Contact /> */}

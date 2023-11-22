@@ -57,18 +57,23 @@ const Subsidebar = () => {
                                 </a>
                             </li>
                             <li>
+                                <a target='_blank' href="https://github.com/HardikPShali">
+                                    <i className="bi bi-github"></i>
+                                </a>
+                            </li>
+                            <li>
                                 <a target='_blank' href="https://www.instagram.com/hardikksali/">
                                     <i className="bi bi-instagram"></i>
                                 </a>
                             </li>
                             <li>
-                                <a target='_blank' href="https://www.linkedin.com/in/hardikshali/">
-                                    <i className="bi bi-linkedin"></i>
+                                <a target='_blank' href="https://hardikshali.vercel.app/">
+                                    <i className="bi bi-globe"></i>
                                 </a>
                             </li>
                             <li>
-                                <a target='_blank' href="https://hardikshali.vercel.app/">
-                                    <i className="bi bi-globe"></i>
+                                <a target='_blank' href="https://www.linkedin.com/in/hardikshali/">
+                                    <i className="bi bi-linkedin"></i>
                                 </a>
                             </li>
                         </ul>

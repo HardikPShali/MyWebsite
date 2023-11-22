@@ -4681,6 +4681,7 @@ p {
   background: #f7f7f7;
   background-size: cover;
   overflow: hidden;
+  align-items: flex-start;
 }
 
 .blog__section .project__head .common__sub {
