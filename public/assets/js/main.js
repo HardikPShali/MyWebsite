@@ -204,6 +204,12 @@ $(document).ready(function () {
 
 		}
 	});
+	$('.certificate-btn').magnificPopup({
+		type: 'iframe',
+		callbacks: {
+
+		}
+	});
 	// $('.imgc').magnificPopup({
 	// 	type: 'image',
 	// 	gallery: {

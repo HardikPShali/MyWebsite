@@ -28,22 +28,23 @@ const certificates = () => {
                     <div class="col-xl-8 col-lg-9">
                         <div class="blog__rightwrap">
                             <div class="service__uniquewrap">
-                                <div class="service__unique__item pb-40 pt-40" data-aos="fade-up" data-aos-duration="1000">
+                                <div class="service__unique__item pb-40 pt-40" data-aos="fade-up" data-aos-duration="1400">
                                     <div class="left__service">
                                         <div class="serial__adjust">
                                             <div class="cont">
                                                 <span class="dates">
-                                                    May, 2023
+                                                    20 June, 2023
                                                 </span>
                                                 <h3>
                                                     <a
-                                                        href="https://www.udemy.com/course/the-complete-web-development-bootcamp/?kw=The+Complete+2023+Web+Development+Bootcamp&src=sac"
+                                                        href="assets/img/certificates/MDM-Certificate_HardikShali.pdf"
                                                         target='_blank'
+                                                        className="certificate-btn"
                                                         style={{
                                                             cursor: "pointer",
                                                         }}
                                                     >
-                                                        The Complete 2023 Web Development Bootcamp
+                                                        MDM for Implementation Consultant (Syndigo University)
                                                     </a>
                                                 </h3>
                                             </div>
@@ -54,10 +55,11 @@ const certificates = () => {
                                             textAlign: 'left',
                                             maxHeight: '150px',
                                             overflowY: 'auto',
-                                            whiteSpace: 'pre-line',
                                         }}>
-                                            This web development course offers hands-on experience in building 16 diverse projects to strengthen your portfolio, positioning you for junior developer roles. It covers a range of technologies, including JavaScript, React for frontend development, Node for backend development, and even Web3 development. By the end, you'll have the skills to create any website or web application, whether for personal projects, startups, or businesses, and you'll be prepared to work as a freelance web developer while mastering best practices in professional development.
-                                        </p>
+
+                                            Throughout this rigorous program, I gained in-depth knowledge and practical skills in mastering Master Data Management (MDM) strategies, solutions, and best practices. From understanding data governance frameworks to implementing MDM systems, I am now equipped to drive successful data-driven initiatives for organizations.
+
+                                            MDM plays a crucial role in today's data-driven world, enabling businesses to streamline their operations, enhance data quality, and make informed decisions. With this certification, I am poised to assist organizations in harnessing the power of their data to optimize processes, drive efficiencies, and achieve their strategic goals.                                        </p>
                                     </div>
                                     {/* <a href="assets/img/blog/opa-blog.png" class="common__icon imgc">
                                         <i class="bi bi-eye"></i>
@@ -68,7 +70,7 @@ const certificates = () => {
                                         <div class="serial__adjust">
                                             <div class="cont">
                                                 <span class="dates">
-                                                    June, 2023
+                                                    June 7, 2023
                                                 </span>
                                                 <h3>
                                                     <a
@@ -78,7 +80,7 @@ const certificates = () => {
                                                             cursor: "pointer",
                                                         }}
                                                     >
-                                                        The Complete Python Bootcamp From Zero to Hero in Python
+                                                        The Complete Python Bootcamp From Zero to Hero in Python (Udemy)
                                                     </a>
                                                 </h3>
                                             </div>
@@ -102,12 +104,12 @@ const certificates = () => {
                                         <div class="serial__adjust">
                                             <div class="cont">
                                                 <span class="dates">
-                                                    June, 2023
+                                                    June 6, 2023
                                                 </span>
                                                 <h3>
                                                     <a href="https://www.udemy.com/certificate/UC-4d5476ea-1f5c-44eb-a94b-a9d08accbe69/" target='_blank' style={{
                                                         cursor: "pointer",
-                                                    }}>The Data Science Course: Complete Data Science Bootcamp 2023</a>
+                                                    }}>The Data Science Course: Complete Data Science Bootcamp 2023 (Udemy)</a>
                                                 </h3>
                                             </div>
                                         </div>
@@ -121,6 +123,41 @@ const certificates = () => {
                                         }}>
 
                                             This comprehensive data science course equips you with a diverse skill set to excel in the field. You'll learn statistical analysis, Python programming with essential libraries like NumPy, pandas, matplotlib, and Seaborn, advanced statistical techniques, Tableau for data visualization, and machine learning with tools like stats models and scikit-learn. Additionally, you'll delve into deep learning using TensorFlow, gain a deep understanding of the mathematics behind machine learning, and apply these skills to real-world business scenarios. By the end, you'll be well-versed in data preprocessing, regression, clustering, factor analysis, and the development of machine learning algorithms, all while honing your intuition for solving real-world data challenges.
+                                        </p>
+                                    </div>
+                                    {/* <a href="assets/img/blog/opa-blog.png" class="common__icon imgc">
+                                        <i class="bi bi-eye"></i>
+                                    </a> */}
+                                </div>
+                                <div class="service__unique__item pb-40 pt-40" data-aos="fade-up" data-aos-duration="1000">
+                                    <div class="left__service">
+                                        <div class="serial__adjust">
+                                            <div class="cont">
+                                                <span class="dates">
+                                                    Feb 2, 2022
+                                                </span>
+                                                <h3>
+                                                    <a
+                                                        href="https://www.udemy.com/course/the-complete-web-development-bootcamp/?kw=The+Complete+2023+Web+Development+Bootcamp&src=sac"
+                                                        target='_blank'
+                                                        style={{
+                                                            cursor: "pointer",
+                                                        }}
+                                                    >
+                                                        The Complete 2023 Web Development Bootcamp (Udemy)
+                                                    </a>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <p style={{
+                                            fontSize: '14px',
+                                            lineHeight: '1.5',
+                                            textAlign: 'left',
+                                            maxHeight: '150px',
+                                            overflowY: 'auto',
+                                            whiteSpace: 'pre-line',
+                                        }}>
+                                            This web development course offers hands-on experience in building 16 diverse projects to strengthen your portfolio, positioning you for junior developer roles. It covers a range of technologies, including JavaScript, React for frontend development, Node for backend development, and even Web3 development. By the end, you'll have the skills to create any website or web application, whether for personal projects, startups, or businesses, and you'll be prepared to work as a freelance web developer while mastering best practices in professional development.
                                         </p>
                                     </div>
                                     {/* <a href="assets/img/blog/opa-blog.png" class="common__icon imgc">

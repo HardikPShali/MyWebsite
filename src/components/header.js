@@ -32,6 +32,23 @@ const Header = () => {
             observer.disconnect();
         };
     }, []);
+
+    const handleLogoClick = (e) => {
+        e.preventDefault();
+        const currentHash = window.location.hash;
+
+        // Simulate a new navigation by setting window.location.href
+        // This will trigger a page reload
+        window.location.href = window.location.origin;
+
+        // Use the 'beforeunload' event to perform actions just before the page is reloaded
+        window.addEventListener('beforeunload', () => {
+            if (currentHash) {
+                window.scrollTo(0, 0);
+            }
+        });
+    };
+
     return (
         <>
             <section className="banner__section" id="home">
@@ -39,7 +56,11 @@ const Header = () => {
                     <div className="container">
                         <div className="header-wrapper">
                             <div className="main__logo">
-                                <a href="#" onClick={() => window.location.reload()} className="logo">
+                                <a
+                                    href="#"
+                                    onClick={handleLogoClick}
+                                    className="logo"
+                                >
                                     <img src="assets/img/logo/logonew.png" alt="logo" />
                                 </a>
                             </div>
