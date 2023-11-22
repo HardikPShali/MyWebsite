@@ -50,7 +50,6 @@ const certificates = () => {
                                             </div>
                                         </div>
                                         <p style={{
-                                            fontSize: '14px',
                                             lineHeight: '1.5',
                                             textAlign: 'left',
                                             maxHeight: '150px',
@@ -86,7 +85,6 @@ const certificates = () => {
                                             </div>
                                         </div>
                                         <p style={{
-                                            fontSize: '14px',
                                             lineHeight: '1.5',
                                             textAlign: 'left',
                                             maxHeight: '150px',
@@ -114,7 +112,6 @@ const certificates = () => {
                                             </div>
                                         </div>
                                         <p style={{
-                                            fontSize: '14px',
                                             lineHeight: '1.5',
                                             textAlign: 'left',
                                             maxHeight: '150px',
@@ -150,7 +147,6 @@ const certificates = () => {
                                             </div>
                                         </div>
                                         <p style={{
-                                            fontSize: '14px',
                                             lineHeight: '1.5',
                                             textAlign: 'left',
                                             maxHeight: '150px',

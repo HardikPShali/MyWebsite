@@ -27,7 +27,7 @@ const Services = () => {
                                             Frontline Dev
                                         </h5>
                                         <h2>
-                                            <a href="service.html">
+                                            <a href="#">
                                                 Immersive Interfaces
                                             </a>
                                         </h2>
@@ -36,7 +36,7 @@ const Services = () => {
                                 <p className="pra">
                                     Elevate your digital presence with expertise in JavaScript, ReactJS, NextJs, CSS3, and HTML5. Specializing in creating visually stunning and technically robust user interfaces using tools like Material-UI, Redux, TypeScript, Bootstrap 5, and Styled Components.      </p>
                             </div>
-                            {/* <a href="service.html" className="common__icon">
+                            {/* <a href="#" className="common__icon">
                                 <i className="bi bi-arrow-up-right"></i>
                             </a> */}
                         </div>
@@ -51,7 +51,7 @@ const Services = () => {
                                             BackCore
                                         </h5>
                                         <h2>
-                                            <a href="service.html">
+                                            <a href="#">
                                                 Scalable Solutions
                                             </a>
                                         </h2>
@@ -60,7 +60,7 @@ const Services = () => {
                                 <p className="pra">
                                     Empower your applications with seamless data management and server-side logic. Mastery includes C#.NET, DotNET Core, Java Core (JSF, JakartaEE, Servlet), C++, and SQL, and Riversand MDM (Master Data Management), ensuring systems are both efficient and scalable.         </p>
                             </div>
-                            {/* <a href="service.html" className="common__icon">
+                            {/* <a href="#" className="common__icon">
                                 <i className="bi bi-arrow-up-right"></i>
                             </a> */}
                         </div>
@@ -75,7 +75,7 @@ const Services = () => {
                                             GitFlow
                                         </h5>
                                         <h2>
-                                            <a href="service.html">
+                                            <a href="#">
                                                 Version Control
                                             </a>
                                         </h2>
@@ -85,7 +85,7 @@ const Services = () => {
                                     Streamline your development workflow with Git essentials. Navigate branches, merge changes, and resolve conflicts effortlessly. Expertise in version control enhances collaborative development.
                                 </p>
                             </div>
-                            {/* <a href="service.html" className="common__icon">
+                            {/* <a href="#" className="common__icon">
                                 <i className="bi bi-arrow-up-right"></i>
                             </a> */}
                         </div>
@@ -100,7 +100,7 @@ const Services = () => {
                                             PyCraft
                                         </h5>
                                         <h2>
-                                            <a href="service.html">
+                                            <a href="#">
                                                 Scripting Mastery
                                             </a>
                                         </h2>
@@ -109,7 +109,7 @@ const Services = () => {
                                 <p className="pra">
                                     Unlock the power of Python for scripting and API development. From task automation to building robust REST APIs, PyCraft enhances the functionality and efficiency of your applications.                            </p>
                             </div>
-                            {/* <a href="service.html" className="common__icon">
+                            {/* <a href="#" className="common__icon">
                                 <i className="bi bi-arrow-up-right"></i>
                             </a> */}
                         </div>
@@ -124,7 +124,7 @@ const Services = () => {
                                             JIRA Pro
                                         </h5>
                                         <h2>
-                                            <a href="service.html">
+                                            <a href="#">
                                                 Project Excellence
                                             </a>
                                         </h2>
@@ -133,7 +133,7 @@ const Services = () => {
                                 <p className="pra">
                                     Navigate project management with JIRA. From issue tracking to seamless collaboration, bring excellence to project planning and execution, ensuring the timely delivery of high-quality software solutions.                                                  </p>
                             </div>
-                            {/* <a href="service.html" className="common__icon">
+                            {/* <a href="#" className="common__icon">
                                 <i className="bi bi-arrow-up-right"></i>
                             </a> */}
                         </div>
