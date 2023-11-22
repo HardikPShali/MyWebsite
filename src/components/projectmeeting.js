@@ -54,7 +54,6 @@ const Projectmeeting = () => {
                     </div>
                 </div>
             </section>
-
         </div>
     )
 }
