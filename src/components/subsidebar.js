@@ -23,7 +23,9 @@ const Subsidebar = () => {
                                     ADDRESS
                                 </span>
                                 <span className="textp">
-                                    Surat, Gujarat, India
+                                    <a target='_blank' href="https://maps.app.goo.gl/rSEnUVeNWzoEyVhP6">
+                                        Surat, Gujarat, India
+                                    </a>
                                 </span>
                             </div>
                         </div>
@@ -42,9 +44,7 @@ const Subsidebar = () => {
                                 <span className="address d-block">
                                     CALL NOW
                                 </span>
-                                <a href="callto:+919724641610" className="textp">
-                                    +91 97246-41610
-                                </a>
+                                <a href="tel:+919724641610 callto:+919724641610" className="textp">+(91) 97246-41610</a>
                             </div>
                         </div>
                     </div>

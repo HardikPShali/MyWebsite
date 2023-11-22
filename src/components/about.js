@@ -71,9 +71,7 @@ const About = () => {
                                                                     <span className="ptext fz-18 mb-20 d-block">
                                                                         Phone
                                                                     </span>
-                                                                    <a href="callto:+919724641610">
-                                                                        +(91) 97246-41610
-                                                                    </a>
+                                                                    <a href="tel:+919724641610 callto:+919724641610">+(91) 97246-41610</a>
                                                                 </div>
                                                             </div>
                                                         </div>
