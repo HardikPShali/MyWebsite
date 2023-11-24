@@ -74,26 +74,20 @@ const Portfolio = () => {
         {
             title: 'InsuranceHub',
             subtitle: 'Insurance Product...',
-            description: ` <u>Project Overview:</u><br />
-            This project involved the conversion of the existing InsuranceHub project, which was developed in DotNet, into Java. The aim was to replicate the functionality of the original project using Java technologies.<br /><br />
+            description: `  <u>Project Modules:</u><br />
+            The website comprises two main modules, namely Admin and Customer. The Admin module enables the management of policies and payment processes. Additionally, the Admin module can be utilized as an intermediary software by agents to provide policies to customers. The Customer module allows customers to purchase policies and make payments as per their chosen policy.<br /><br />
 
-            <u>Technology Stack:</u><br />
-            The new project utilized Java Enterprise Edition (JavaEE) and JavaServer Faces (JSF) to create a server-side web application. HTML, CSS, and JavaScript were used to create a responsive and visually appealing user interface. SQL was used for database management.<br /><br />
+            <u>Database Management:</u><br />
+            All user information files are stored in a centralized database that is managed by the system. The convenience and speed of purchasing insurance online are unparalleled, allowing customers to buy policies from anywhere in the world at any time.<br /><br />
 
-            <u>Code Migration:</u><br />
-            The project involved migrating the existing codebase from DotNet to Java while ensuring that all functionalities remained intact. The team worked on prioritizing tasks and completing them in order of importance. They also worked on identifying and removing software bugs to ensure a smooth transition from the old project to the new one.<br /><br />
+            <u>Profile Management:</u><br />
+            This system offers profile management for all policyholders, along with an interface that provides customers with easy access to their policy details. Payment processes are similar to e-commerce transactions, and customers can easily pay their policies online. This hassle-free process is completed in minimal time, reducing overall costs.<br /><br />
 
-            <u>Admin Panel:</u><br />
-            The Admin Panel for H&T Insurance allows the management of various aspects related to insurance policies and customer feedback. The panel enables admins to manage the insurance companies and hospitals that are associated with InsuranceHub. It provides the ability to add, update, or delete different types of insurance policies.<br /><br />
+            <u>Eliminating Commissions:</u><br />
+            Directly buying from the insurance company eliminates the agent's commission, and the paperless process saves costs. The system offers customers information about new and existing policies online.<br /><br />
 
-            <u>Customer Interaction:</u><br />
-            In addition, the panel displays customer feedback and inquiries, providing valuable insights into customer needs and concerns. Admins can also manage customer accounts, including the status of payments for various policies.<br /><br />
-
-            <u>Client Panel:</u><br />
-            The Client Panel allows customers to sign in and log in to their accounts, where they can browse through different policies for term and health insurance. They can select a policy as per their requirements, provide necessary details, and make payments online. Customers can only select one policy at a time, and the panel provides an Invoice and Purchase History feature to keep track of transactions.<br /><br />
-
-            <u>Technology Stack for User Experience:</u><br />
-            The panel uses JakartaEE, JSF, HTML, CSS, JavaScript, and SQL technologies to create a seamless user experience. The use of these technologies ensures that the system is efficient, secure, and easy to use. Customers can also update their profiles, ensuring that their details are up-to-date and accurate. Overall, the system provides a comprehensive and efficient solution for managing insurance policies and customer accounts.`,
+            <u>Development Process:</u><br />
+            Tasks were prioritized and completed based on their level of importance, with collaboration between the team and developers to identify and resolve software bugs. Technologies used include C#.NET, HTML, CSS, JavaScript, and SQL.`,
             image: 'insurancehub.png'
         },
         {
