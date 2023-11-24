@@ -2106,8 +2106,8 @@ p {
 }
 
 .header-wrapper .main-menu li a {
-  /* color: var(--white); */
-  color: #fff;
+  color: var(--white);
+  /* color: #fff; */
   font-size: 18px;
   font-style: normal;
   font-family: "Kanit", sans-serif;
@@ -2298,6 +2298,7 @@ p {
   .header-wrapper .main-menu li a {
     font-size: 14px;
     padding: 16px 2px;
+    color: #fff;
   }
 }
 
