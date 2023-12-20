@@ -26,7 +26,6 @@ const Testimonials = () => {
     }
     return (
         <div>
-
             <section className="testimonial__section pt-120 pb-120" id="testi">
                 <div className="container">
                     <div className="project__head text-center">
@@ -34,9 +33,9 @@ const Testimonials = () => {
                             Testimonial
                         </span>
                         <h2 className="fw-500" data-aos="fade-down" data-aos-duration="1000">
-                            Happy Words From Happy
+                            Positive Feedback from
                             <span className="d-block">
-                                Co-workers
+                                Peers
                             </span>
                         </h2>
                     </div>
