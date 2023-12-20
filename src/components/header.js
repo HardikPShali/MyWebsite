@@ -176,7 +176,7 @@ const Header = () => {
                         </div>
                         <div className="col-lg-4">
                             <div className="banner__thumb fade-out">
-                                <img src="assets/img/banner/HardikShaliFullNoBG.png" alt="my-img" />
+                                <img src="assets/img/banner/HardikShaliFullNoBG1.png" alt="my-img" />
                             </div>
                         </div>
                     </div>
