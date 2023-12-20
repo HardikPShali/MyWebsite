@@ -1,10 +1,29 @@
-import React from 'react'
-
+import React, { useState, useEffect } from 'react';
 const Footer = () => {
-    // const handleLinkClick = () => {
-    //     // Reload the current page
-    //     window.location.reload();
-    // };
+    const [lastCommitDate, setLastCommitDate] = useState('');
+
+    useEffect(() => {
+        const fetchLastCommitDate = async () => {
+            try {
+                const response = await fetch('https://api.github.com/repos/HardikPShali/MyWebsite/commits?per_page=1');
+                const data = await response.json();
+
+                if (data && data.length > 0) {
+                    const commitDate = new Date(data[0].commit.author.date);
+                    const formattedDate = commitDate.toLocaleDateString('en-US', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric',
+                    });
+                    setLastCommitDate(formattedDate);
+                }
+            } catch (error) {
+                console.error('Error fetching last commit date:', error);
+            }
+        };
+
+        fetchLastCommitDate();
+    }, []);;
     return (
 
         <footer className="footer__section" id="contact">
@@ -65,12 +84,12 @@ const Footer = () => {
                         <ul className="terms">
                             <li>
                                 <a href="#0">
-                                    Terms & Condition
+                                    Last Updated:
                                 </a>
                             </li>
                             <li>
                                 <a href="#0">
-                                    Privacy Policy
+                                    [{lastCommitDate}]
                                 </a>
                             </li>
                         </ul>
