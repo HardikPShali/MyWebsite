@@ -54,7 +54,7 @@ const Footer = () => {
                                         </a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6">
-                                        <a target='_blank' href="https://www.instagram.com/hardikksali/" className="social__footer">
+                                        <a target='_blank' href="https://www.instagram.com/hardiiksali/" className="social__footer">
                                             Instagram
                                             <i className="bi bi-arrow-right"></i>
                                         </a>

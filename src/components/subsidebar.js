@@ -62,7 +62,7 @@ const Subsidebar = () => {
                                 </a>
                             </li>
                             <li>
-                                <a target='_blank' href="https://www.instagram.com/hardikksali/">
+                                <a target='_blank' href="https://www.instagram.com/hardiiksali/">
                                     <i className="bi bi-instagram"></i>
                                 </a>
                             </li>
