@@ -149,6 +149,30 @@ const About = () => {
                                                 <div className="exprience__box mt-30 text-end">
                                                     <div className="exri__item">
                                                         <span className="fz-18 fw-500 base">
+                                                            Sep 2023 - Present
+                                                        </span>
+                                                        <div className="expri__cont">
+                                                            <h4 className="mb-15 text-dark">
+                                                                Remote Freelance Developer
+                                                            </h4>
+                                                            {/* <p className="fz-18 pra d-block">
+                                                                <a
+                                                                    href="https://www.dataio.co/"
+                                                                    target='_blank'
+                                                                    style={{
+                                                                        color: "#0078d4",
+                                                                        cursor: "pointer",
+                                                                        transition: "textShadow 0.3s",
+                                                                    }}
+                                                                >
+                                                                    Dataio · On-Site
+                                                                </a>
+
+                                                            </p> */}
+                                                        </div>
+                                                    </div>
+                                                    <div className="exri__item">
+                                                        <span className="fz-18 fw-500 base">
                                                             Apr 2023 - Sep 2023
                                                         </span>
                                                         <div className="expri__cont">
@@ -402,6 +426,21 @@ const About = () => {
                                                                 <div className="mys">
                                                                     <span className="ptext fz-18 mb-15 d-block">
                                                                         Backend Development: C++, C#.NET, DotNET Core, SQL,Java Core (JSF,JakartaEE,Servlet)
+                                                                    </span>
+                                                                    {/* <h1 className="fw-600">
+                                                                        85%
+                                                                    </h1> */}
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-6">
+                                                            <div className="abox myskill__item">
+                                                                <div className="thumb">
+                                                                    <img height={100} width={100} src="assets/img/about/software-testing.png" alt="img" />
+                                                                </div>
+                                                                <div className="mys">
+                                                                    <span className="ptext fz-18 mb-15 d-block">
+                                                                        Software Products: Syndigo / Riversad PIM (SaaS)
                                                                     </span>
                                                                     {/* <h1 className="fw-600">
                                                                         85%
