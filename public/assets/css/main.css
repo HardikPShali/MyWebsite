@@ -56,10 +56,6 @@ body {
   overflow-x: hidden;
   background-color: var(--body);
   font-family: "Kanit", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  /* Improve font rendering on Safari */
-  -moz-osx-font-smoothing: grayscale;
-  /* Improve font rendering on macOS */
 }
 
 h2,
@@ -77,10 +73,6 @@ h1 {
   font-weight: 600;
   line-height: 120%;
   font-family: "Kanit", sans-serif;
-  margin-top: 0;
-  /* Reset default margin */
-  margin-bottom: 10px;
-  /* Add margin to create space between headings */
 }
 
 h2 {
@@ -88,10 +80,6 @@ h2 {
   line-height: 120%;
   font-weight: 600;
   font-family: "Kanit", sans-serif;
-  margin-top: 0;
-  /* Reset default margin */
-  margin-bottom: 10px;
-  /* Add margin to create space between headings */
 }
 
 @media (max-width: 575px) {
@@ -105,10 +93,6 @@ h3 {
   line-height: 120%;
   font-weight: 600;
   font-family: "Kanit", sans-serif;
-  margin-top: 0;
-  /* Reset default margin */
-  margin-bottom: 10px;
-  /* Add margin to create space between headings */
 }
 
 @media (max-width: 575px) {
@@ -122,10 +106,6 @@ h4 {
   line-height: 130%;
   font-weight: 600;
   font-family: "Kanit", sans-serif;
-  margin-top: 0;
-  /* Reset default margin */
-  margin-bottom: 10px;
-  /* Add margin to create space between headings */
 }
 
 h5 {
@@ -133,19 +113,11 @@ h5 {
   line-height: 130%;
   font-weight: 600;
   font-family: "Kanit", sans-serif;
-  margin-top: 0;
-  /* Reset default margin */
-  margin-bottom: 10px;
-  /* Add margin to create space between headings */
 }
 
 h6 {
   font-size: 16px;
   font-family: "Kanit", sans-serif;
-  margin-top: 0;
-  /* Reset default margin */
-  margin-bottom: 10px;
-  /* Add margin to create space between headings */
 }
 
 ul {
@@ -280,7 +252,6 @@ p {
 @media (max-width: 767px) {
   .fz-16 {
     font-size: 14px;
-    /* Updated for better readability on smaller screens */
   }
 }
 
@@ -291,7 +262,6 @@ p {
 @media (max-width: 767px) {
   .fz-18 {
     font-size: 16px;
-    /* Updated for better readability on smaller screens */
   }
 }
 
@@ -302,7 +272,6 @@ p {
 @media (max-width: 767px) {
   .fz-20 {
     font-size: 18px;
-    /* Updated for better readability on smaller screens */
   }
 }
 
@@ -313,7 +282,6 @@ p {
 @media (max-width: 767px) {
   .fz-24 {
     font-size: 20px;
-    /* Updated for better readability on smaller screens */
   }
 }
 
@@ -324,7 +292,6 @@ p {
 @media (max-width: 767px) {
   .fz-26 {
     font-size: 22px;
-    /* Updated for better readability on smaller screens */
   }
 }
 
@@ -335,7 +302,6 @@ p {
 @media (max-width: 767px) {
   .fz-30 {
     font-size: 26px;
-    /* Updated for better readability on smaller screens */
   }
 }
 
@@ -346,7 +312,6 @@ p {
 @media (max-width: 767px) {
   .fz-32 {
     font-size: 28px;
-    /* Updated for better readability on smaller screens */
   }
 }
 
@@ -601,7 +566,6 @@ p {
 @media (max-width: 991px) {
   .pb-60 {
     padding-bottom: 50px;
-    /* Adjusted for smaller screens */
   }
 }
 
@@ -612,7 +576,6 @@ p {
 @media (max-width: 991px) {
   .pt-40 {
     padding-top: 30px;
-    /* Adjusted for smaller screens */
   }
 }
 
@@ -623,7 +586,6 @@ p {
 @media (max-width: 991px) {
   .pb-40 {
     padding-bottom: 30px;
-    /* Adjusted for smaller screens */
   }
 }
 
@@ -634,7 +596,6 @@ p {
 @media (max-width: 991px) {
   .pb-30 {
     padding-bottom: 20px;
-    /* Adjusted for smaller screens */
   }
 }
 
@@ -645,7 +606,6 @@ p {
 @media (max-width: 991px) {
   .pt-30 {
     padding-top: 20px;
-    /* Adjusted for smaller screens */
   }
 }
 
@@ -656,7 +616,6 @@ p {
 @media (max-width: 991px) {
   .pb-24 {
     padding-bottom: 15px;
-    /* Adjusted for smaller screens */
   }
 }
 
@@ -667,7 +626,6 @@ p {
 @media (max-width: 991px) {
   .pt-24 {
     padding-top: 15px;
-    /* Adjusted for smaller screens */
   }
 }
 
@@ -678,7 +636,6 @@ p {
 @media (max-width: 991px) {
   .pb-20 {
     padding-bottom: 15px;
-    /* Adjusted for smaller screens */
   }
 }
 
@@ -689,7 +646,6 @@ p {
 @media (max-width: 991px) {
   .pt-20 {
     padding-top: 15px;
-    /* Adjusted for smaller screens */
   }
 }
 
@@ -700,7 +656,6 @@ p {
 @media (max-width: 991px) {
   .pb-16 {
     padding-bottom: 10px;
-    /* Adjusted for smaller screens */
   }
 }
 
@@ -711,7 +666,6 @@ p {
 @media (max-width: 991px) {
   .pt-16 {
     padding-top: 10px;
-    /* Adjusted for smaller screens */
   }
 }
 
@@ -722,7 +676,6 @@ p {
 @media (max-width: 991px) {
   .pb-15 {
     margin-bottom: 10px;
-    /* Adjusted for smaller screens */
   }
 }
 
@@ -733,7 +686,6 @@ p {
 @media (max-width: 991px) {
   .pt-15 {
     margin-top: 10px;
-    /* Adjusted for smaller screens */
   }
 }
 
@@ -937,13 +889,13 @@ p {
 
 @media (max-width: 991px) {
   .mt-24 {
-    margin-top: 15px; /* Adjusted for smaller screens */
+    margin-top: 15px;
   }
 }
 
 @media (max-width: 767px) {
   .mt-24 {
-    margin-top: 10px; /* Further adjustment for even smaller screens */
+    margin-top: 10px;
   }
 }
 
@@ -953,7 +905,7 @@ p {
 
 @media (max-width: 991px) {
   .mb-20 {
-    margin-bottom: 15px; /* Adjusted for smaller screens */
+    margin-bottom: 15px;
   }
 }
 
@@ -963,7 +915,7 @@ p {
 
 @media (max-width: 991px) {
   .mt-20 {
-    margin-top: 15px; /* Adjusted for smaller screens */
+    margin-top: 15px;
   }
 }
 
@@ -973,7 +925,7 @@ p {
 
 @media (max-width: 991px) {
   .mb-15 {
-    margin-bottom: 10px; /* Adjusted for smaller screens */
+    margin-bottom: 10px;
   }
 }
 
@@ -983,7 +935,7 @@ p {
 
 @media (max-width: 991px) {
   .mt-15 {
-    margin-top: 10px; /* Adjusted for smaller screens */
+    margin-top: 10px;
   }
 }
 
@@ -993,7 +945,7 @@ p {
 
 @media (max-width: 991px) {
   .mb-16 {
-    margin-bottom: 10px; /* Adjusted for smaller screens */
+    margin-bottom: 10px;
   }
 }
 
@@ -1003,7 +955,7 @@ p {
 
 @media (max-width: 991px) {
   .mt-16 {
-    margin-top: 10px; /* Adjusted for smaller screens */
+    margin-top: 10px;
   }
 }
 
@@ -3422,11 +3374,9 @@ p {
     background: var(--base);
   }
 }
-
-.project__item {
-  text-align: left;
+.project__item  {
+ text-align: left;
 }
-
 .project__item .thumb {
   overflow: hidden;
   display: block;
